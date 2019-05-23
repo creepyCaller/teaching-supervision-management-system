@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.edu.cuit.tsmgr.dao.SgmembersMapper" >
+    <resultMap id="BaseResultMap" type="cn.edu.cuit.tsmgr.model.Sgmembers" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="sgmname" property="sgmname" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id,
+        sgmname
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" >
+        select
+        <include refid="Base_Column_List" />
+        from sgmembers
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </select>
+
+    <delete id="deleteByPrimaryKey" >
+        delete from sgmembers
+        where
+        id = #{id,jdbcType=INTEGER}
+        
+    </delete>
+
+    <delete id="deleteByPrimaryKeys" >
+        delete from sgmembers
+        where <foreach collection="primaryKeys" item = "primaryKey" separator=" or " >id = #{primaryKey,jdbcType=INTEGER}</foreach>
+    </delete>
+
+    <insert id="insert" parameterType="cn.edu.cuit.tsmgr.model.Sgmembers" >
+        insert into sgmembers (
+            id,
+            sgmname
+        )
+        values (
+            #{id,jdbcType=INTEGER},
+            #{sgmname,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <insert id="insertSelective" parameterType="cn.edu.cuit.tsmgr.model.Sgmembers" >
+        insert into sgmembers
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                id,
+            </if>
+            <if test="sgmname != null" >
+                sgmname,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="sgmname != null" >
+                #{sgmname,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="cn.edu.cuit.tsmgr.model.Sgmembers" >
+        update sgmembers
+        <set >
+            <if test="id != null" >
+                id = #{id,jdbcType=INTEGER},
+            </if>
+            <if test="sgmname != null" >
+                sgmname = #{sgmname,jdbcType=VARCHAR},
+            </if>
+        </set>
+            where
+            id = #{id,jdbcType=INTEGER}
+                
+    </update>
+
+    <update id="updateByPrimaryKey" parameterType="cn.edu.cuit.tsmgr.model.Sgmembers" >
+        update sgmembers
+        set
+        <trim suffixOverrides="," >
+            sgmname = #{sgmname,jdbcType=VARCHAR},
+        </trim>
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </update>
+
+    <select id="loadModels" resultMap="BaseResultMap">
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        from sgmembers
+        <if test="condition != null">
+            where ${condition}
+        </if>
+        <if test="order != null and sort != null">
+            order by ${order} ${sort}
+        </if>
+        <if test="offset != -1 and limit != -1">
+            limit #{offset,jdbcType=INTEGER}, #{limit,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <select id="loadMaps" resultType="java.util.HashMap">
+        select
+        <if test="parameters != null">
+         ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        from sgmembers
+        <if test="condition != null">
+            where ${condition}
+        </if>
+        <if test="order != null and sort != null">
+            order by ${order} ${sort}
+        </if>
+        <if test="offset != -1 and limit != -1">
+            limit #{offset,jdbcType=INTEGER}, #{limit,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <select id="count" resultType="long">
+        select count(
+        <if test="isDistinct == true">
+            distinct
+        </if>
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        ) from sgmembers
+        <if test="condition != null">
+            where ${condition}
+        </if>
+    </select>
+
+    <select id="findModel" resultMap="BaseResultMap" >
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if> from sgmembers
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </select>
+
+    <select id="findMap" resultType="java.util.HashMap" >
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if> from sgmembers
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </select>
+</mapper>

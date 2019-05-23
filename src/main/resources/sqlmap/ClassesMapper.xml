@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.edu.cuit.tsmgr.dao.ClassesMapper" >
+    <resultMap id="BaseResultMap" type="cn.edu.cuit.tsmgr.model.Classes" >
+        <id column="classname" property="classname" jdbcType="VARCHAR" />
+        <result column="major" property="major" jdbcType="VARCHAR" />
+        <result column="school" property="school" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        classname,
+        major,
+        school
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" >
+        select
+        <include refid="Base_Column_List" />
+        from classes
+        where
+        classname = #{classname,jdbcType=VARCHAR}
+            
+    </select>
+
+    <delete id="deleteByPrimaryKey" >
+        delete from classes
+        where
+        classname = #{classname,jdbcType=VARCHAR}
+        
+    </delete>
+
+    <delete id="deleteByPrimaryKeys" >
+        delete from classes
+        where <foreach collection="primaryKeys" item = "primaryKey" separator=" or " >classname = #{primaryKey,jdbcType=VARCHAR}</foreach>
+    </delete>
+
+    <insert id="insert" parameterType="cn.edu.cuit.tsmgr.model.Classes" >
+        insert into classes (
+            classname,
+            major,
+            school
+        )
+        values (
+            #{classname,jdbcType=VARCHAR},
+            #{major,jdbcType=VARCHAR},
+            #{school,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <insert id="insertSelective" parameterType="cn.edu.cuit.tsmgr.model.Classes" >
+        insert into classes
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="classname != null" >
+                classname,
+            </if>
+            <if test="major != null" >
+                major,
+            </if>
+            <if test="school != null" >
+                school,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="classname != null" >
+                #{classname,jdbcType=VARCHAR},
+            </if>
+            <if test="major != null" >
+                #{major,jdbcType=VARCHAR},
+            </if>
+            <if test="school != null" >
+                #{school,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="cn.edu.cuit.tsmgr.model.Classes" >
+        update classes
+        <set >
+            <if test="classname != null" >
+                classname = #{classname,jdbcType=VARCHAR},
+            </if>
+            <if test="major != null" >
+                major = #{major,jdbcType=VARCHAR},
+            </if>
+            <if test="school != null" >
+                school = #{school,jdbcType=VARCHAR},
+            </if>
+        </set>
+            where
+            classname = #{classname,jdbcType=VARCHAR}
+                
+    </update>
+
+    <update id="updateByPrimaryKey" parameterType="cn.edu.cuit.tsmgr.model.Classes" >
+        update classes
+        set
+        <trim suffixOverrides="," >
+            major = #{major,jdbcType=VARCHAR},
+            school = #{school,jdbcType=VARCHAR},
+        </trim>
+        where
+        classname = #{classname,jdbcType=VARCHAR}
+            
+    </update>
+
+    <select id="loadModels" resultMap="BaseResultMap">
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        from classes
+        <if test="condition != null">
+            where ${condition}
+        </if>
+        <if test="order != null and sort != null">
+            order by ${order} ${sort}
+        </if>
+        <if test="offset != -1 and limit != -1">
+            limit #{offset,jdbcType=INTEGER}, #{limit,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <select id="loadMaps" resultType="java.util.HashMap">
+        select
+        <if test="parameters != null">
+         ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        from classes
+        <if test="condition != null">
+            where ${condition}
+        </if>
+        <if test="order != null and sort != null">
+            order by ${order} ${sort}
+        </if>
+        <if test="offset != -1 and limit != -1">
+            limit #{offset,jdbcType=INTEGER}, #{limit,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <select id="count" resultType="long">
+        select count(
+        <if test="isDistinct == true">
+            distinct
+        </if>
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        ) from classes
+        <if test="condition != null">
+            where ${condition}
+        </if>
+    </select>
+
+    <select id="findModel" resultMap="BaseResultMap" >
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if> from classes
+        where
+        classname = #{classname,jdbcType=VARCHAR}
+            
+    </select>
+
+    <select id="findMap" resultType="java.util.HashMap" >
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if> from classes
+        where
+        classname = #{classname,jdbcType=VARCHAR}
+            
+    </select>
+</mapper>

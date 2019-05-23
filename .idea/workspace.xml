@@ -1,0 +1,1658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tsmgr:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/UserDao.java" line="36" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" line="36" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c15b949a-dad6-4a69-b19a-bafde4cdcb6a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../ssm-maven/.idea/artifacts/ssm_maven_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm-maven/.idea/artifacts/ssm_maven_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm-maven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm-maven/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm-maven/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm-maven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm-maven/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm-maven/ssm-maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tsmgr_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/AddAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/BaseControllerInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/ClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/DispatcherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/LabClassCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/NormalClassCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/RegisteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/RoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/SaveNameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/SystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TSMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/AddAdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/AddLabCommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/AddNorCommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/ClassDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/CommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/CourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/RoomDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TSMemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TaskDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/ViewDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/filter/VisitFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/listener/SystemInitListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Addlab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Addnor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/BaseServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/SaveNameServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/SystemServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/AddAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/LabClassCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/NormalClassCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/RoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SaveNameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SystemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TSMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/ViewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/EncryptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/MysqlTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/StringTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/VCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-dbutils-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmember.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmemberPersonal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/edu/cuit/tsmgr/service/impl/TaskServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tsmgrsys/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tsmgrsys/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tsmgrsys/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tsmgrsys/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="73" column="78" lean-forward="true" selection-start-line="73" selection-start-column="78" selection-end-line="73" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/edu/cuit/tsmgr/service/impl/TaskServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TaskDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/NormalClassCommentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Addnor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1410">
+              <caret line="243" column="41" selection-start-line="243" selection-start-column="41" selection-end-line="243" selection-end-column="41" />
+              <folding>
+                <element signature="e#4865#4866#0" expanded="true" />
+                <element signature="e#4913#4914#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/NormalClassCommentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="16" column="176" selection-start-line="16" selection-start-column="164" selection-end-line="16" selection-end-column="176" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Normalclassevaluatetables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="52" column="36" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Labclassevaluatetables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-589">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="jsf" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Name</find>
+      <find>commentForm</find>
+      <find>add_generallevel</find>
+      <find>Teacher</find>
+      <find>Stat</find>
+      <find>other</find>
+      <find>generalle</find>
+      <find>compiler</find>
+      <find>hidden</find>
+      <find>hide</find>
+      <find>al</find>
+      <find>A</find>
+      <find>E</find>
+      <find>D</find>
+      <find>C</find>
+      <find>B</find>
+      <find>teachercondition</find>
+      <find>book</find>
+      <find>id=&quot;&quot;</find>
+      <find>,</find>
+      <find>add</find>
+      <find>json</find>
+      <find>js</find>
+      <find>400</find>
+      <find>175</find>
+      <find>auto</find>
+      <find>；</find>
+      <find>玩手机</find>
+      <find>350</find>
+      <find>300</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Room</replace>
+      <replace>教室</replace>
+      <replace>ClassController</replace>
+      <replace>Class</replace>
+      <replace>editClass</replace>
+      <replace>课程列表</replace>
+      <replace>课程</replace>
+      <replace>Course</replace>
+      <replace>TaskController</replace>
+      <replace>Task</replace>
+      <replace>add</replace>
+      <replace>理论</replace>
+      <replace>width=&quot;350&quot; height=&quot;70&quot;</replace>
+      <replace>授课</replace>
+      <replace>easyui</replace>
+      <replace>User</replace>
+      <replace>an</replace>
+      <replace>很好</replace>
+      <replace>差</replace>
+      <replace>中下</replace>
+      <replace>一般</replace>
+      <replace>较好</replace>
+      <replace>|</replace>
+      <replace>view</replace>
+      <replace>300</replace>
+      <replace>200px</replace>
+      <replace>250</replace>
+      <replace>;</replace>
+      <replace>1050</replace>
+      <replace>900</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Labclassevaluatetables.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Normalclassevaluatetables.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/ViewService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/ViewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SystemService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/SystemController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/listener/SystemInitListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/StmtDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/StmtService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/StmtController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/stat.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/DispatcherController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmember.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TaskDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/filter/VisitFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/edu/cuit/tsmgr/service/impl/TaskServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/maven" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="nexus" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="tsmgr Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="tsmgr Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="357" />
+    <option name="y" value="88" />
+    <option name="width" value="1302" />
+    <option name="height" value="864" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="tsmember" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/easyui/js" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.15012106" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.edu.cuit.tsmgr.service.impl" />
+      <recent name="cn.edu.cuit.tsmgr.util" />
+      <recent name="cn.edu.cuit.tsmgr.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.edu.cuit.tsmgr.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\easyui\js" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF\views\tsmember" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF\views\teacher" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.edu.cuit.tsmgr.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\57628\git\tsmgr\src\main\java\cn\edu\cuit\tsmgr\util" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\views" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat9">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EncryptionUtilTest.MD5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tsmgr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.cuit.tsmgr.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.cuit.tsmgr.util" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.cuit.tsmgr.util.EncryptionUtilTest" />
+      <option name="METHOD_NAME" value="MD5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomsMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tsmgr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.cuit.tsmgr.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.cuit.tsmgr.dao" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.cuit.tsmgr.dao.RoomsMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaveNameServiceTest.saveTeacherNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tsmgr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.cuit.tsmgr.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.cuit.tsmgr.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.cuit.tsmgr.service.impl.SaveNameServiceTest" />
+      <option name="METHOD_NAME" value="saveTeacherNameTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemServiceTest.checkUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tsmgr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.cuit.tsmgr.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.cuit.tsmgr.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.cuit.tsmgr.service.impl.SystemServiceTest" />
+      <option name="METHOD_NAME" value="checkUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherServiceTest.editTeacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tsmgr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.cuit.tsmgr.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.cuit.tsmgr.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.cuit.tsmgr.service.impl.TeacherServiceTest" />
+      <option name="METHOD_NAME" value="editTeacher" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M18" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/tsmgr/" />
+      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="tsmgr:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/tsmgr" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_tsmgr" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="15485" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="tsmgr:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SaveNameServiceTest.saveTeacherNameTest" />
+      <item itemvalue="JUnit.TeacherServiceTest.editTeacher" />
+      <item itemvalue="JUnit.EncryptionUtilTest.MD5" />
+      <item itemvalue="JUnit.RoomsMapperTest" />
+      <item itemvalue="JUnit.SystemServiceTest.checkUser" />
+      <item itemvalue="Tomcat Server.Tomcat9" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SystemServiceTest.checkUser" />
+        <item itemvalue="JUnit.RoomsMapperTest" />
+        <item itemvalue="JUnit.EncryptionUtilTest.MD5" />
+        <item itemvalue="JUnit.TeacherServiceTest.editTeacher" />
+        <item itemvalue="JUnit.SaveNameServiceTest.saveTeacherNameTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c15b949a-dad6-4a69-b19a-bafde4cdcb6a" name="Default" comment="" />
+      <created>1527662700801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527662700801</updated>
+      <workItem from="1527662702193" duration="148000" />
+      <workItem from="1527728180230" duration="4188000" />
+      <workItem from="1528184432539" duration="18076000" />
+      <workItem from="1528796425874" duration="1271000" />
+      <workItem from="1528938569236" duration="11000" />
+      <workItem from="1556260904620" duration="2629000" />
+      <workItem from="1556265436869" duration="1015000" />
+      <workItem from="1556266518669" duration="29000" />
+      <workItem from="1556266913759" duration="1358000" />
+      <workItem from="1556268920271" duration="26000" />
+      <workItem from="1556269011041" duration="56000" />
+      <workItem from="1556269224895" duration="1864000" />
+      <workItem from="1556271149118" duration="1577000" />
+      <workItem from="1556273194384" duration="830000" />
+      <workItem from="1556274049881" duration="25000" />
+      <workItem from="1556274089689" duration="1343000" />
+      <workItem from="1556275598751" duration="877000" />
+      <workItem from="1556276509226" duration="2566000" />
+      <workItem from="1556282705387" duration="926000" />
+      <workItem from="1556336323359" duration="22000" />
+      <workItem from="1556336756590" duration="4070000" />
+      <workItem from="1556340903578" duration="16090000" />
+      <workItem from="1556357170873" duration="3795000" />
+      <workItem from="1556361028111" duration="269000" />
+      <workItem from="1556361370939" duration="312000" />
+      <workItem from="1556439195531" duration="692000" />
+      <workItem from="1556439938872" duration="1641000" />
+      <workItem from="1556441662517" duration="1127000" />
+      <workItem from="1556442919766" duration="373000" />
+      <workItem from="1556456137888" duration="3917000" />
+      <workItem from="1556460915434" duration="88000" />
+      <workItem from="1556461090739" duration="12137000" />
+      <workItem from="1556497609059" duration="4237000" />
+      <workItem from="1556503812369" duration="1430000" />
+      <workItem from="1556505324583" duration="177000" />
+      <workItem from="1556505570661" duration="4711000" />
+      <workItem from="1556511561932" duration="2172000" />
+      <workItem from="1556518244841" duration="2443000" />
+      <workItem from="1556521245671" duration="3316000" />
+      <workItem from="1556531551866" duration="187000" />
+      <workItem from="1556531851944" duration="1895000" />
+      <workItem from="1556533828669" duration="848000" />
+      <workItem from="1556536312651" duration="7022000" />
+      <workItem from="1556543404575" duration="3828000" />
+      <workItem from="1556598016331" duration="1154000" />
+      <workItem from="1556599285902" duration="165000" />
+      <workItem from="1556599526402" duration="908000" />
+      <workItem from="1556602305180" duration="284000" />
+      <workItem from="1556602655679" duration="386000" />
+      <workItem from="1556603084283" duration="486000" />
+      <workItem from="1556603617544" duration="2253000" />
+      <workItem from="1556605947670" duration="2115000" />
+      <workItem from="1556625766362" duration="113000" />
+      <workItem from="1556625921912" duration="941000" />
+      <workItem from="1556769355871" duration="2630000" />
+      <workItem from="1556774488529" duration="28000" />
+      <workItem from="1556775039044" duration="8647000" />
+      <workItem from="1556784112899" duration="37000" />
+      <workItem from="1556784347274" duration="4052000" />
+      <workItem from="1556850885381" duration="1560000" />
+      <workItem from="1556853347600" duration="1229000" />
+      <workItem from="1556854705759" duration="7097000" />
+      <workItem from="1556862565046" duration="2118000" />
+      <workItem from="1556864750266" duration="2897000" />
+      <workItem from="1556884179334" duration="549000" />
+      <workItem from="1556884918334" duration="11510000" />
+      <workItem from="1556939747315" duration="31499000" />
+      <workItem from="1556981355336" duration="5169000" />
+      <workItem from="1557023069352" duration="5747000" />
+      <workItem from="1557036170954" duration="5030000" />
+      <workItem from="1557041393377" duration="617000" />
+      <workItem from="1557042841919" duration="2826000" />
+      <workItem from="1557052841979" duration="3499000" />
+      <workItem from="1557117170028" duration="1104000" />
+      <workItem from="1557118785695" duration="1765000" />
+      <workItem from="1557123146657" duration="4853000" />
+      <workItem from="1557130115616" duration="1391000" />
+      <workItem from="1557133821741" duration="525000" />
+      <workItem from="1557138910680" duration="782000" />
+      <workItem from="1557140565579" duration="6063000" />
+      <workItem from="1557155758967" duration="5157000" />
+      <workItem from="1557161861273" duration="985000" />
+      <workItem from="1557203226238" duration="5775000" />
+      <workItem from="1557209946803" duration="464000" />
+      <workItem from="1557213114423" duration="739000" />
+      <workItem from="1557218974928" duration="603000" />
+      <workItem from="1557221098097" duration="593000" />
+      <workItem from="1557226878720" duration="380000" />
+      <workItem from="1557236082106" duration="4500000" />
+      <workItem from="1557247686420" duration="406000" />
+      <workItem from="1557248433377" duration="950000" />
+      <workItem from="1557305144247" duration="1887000" />
+      <workItem from="1557469544820" duration="38000" />
+      <workItem from="1557552464651" duration="3927000" />
+      <workItem from="1557707491578" duration="2686000" />
+      <workItem from="1557747039295" duration="1127000" />
+      <workItem from="1557835707817" duration="193000" />
+      <workItem from="1557837177839" duration="9329000" />
+      <workItem from="1557847106287" duration="6514000" />
+      <workItem from="1557855528359" duration="237000" />
+      <workItem from="1557913246636" duration="1383000" />
+      <workItem from="1558060772784" duration="1119000" />
+      <workItem from="1558062029482" duration="3497000" />
+      <workItem from="1558066410532" duration="2606000" />
+      <workItem from="1558258211497" duration="268000" />
+      <workItem from="1558277765290" duration="4324000" />
+      <workItem from="1558282188656" duration="6335000" />
+      <workItem from="1558311867064" duration="4347000" />
+      <workItem from="1558316321800" duration="554000" />
+      <workItem from="1558317022668" duration="1155000" />
+      <workItem from="1558318951154" duration="1367000" />
+      <workItem from="1558325578331" duration="1266000" />
+      <workItem from="1558335121724" duration="875000" />
+      <workItem from="1558345908781" duration="3076000" />
+      <workItem from="1558349896071" duration="6281000" />
+      <workItem from="1558356872775" duration="199000" />
+      <workItem from="1558357195301" duration="20676000" />
+      <workItem from="1558415412165" duration="3266000" />
+      <workItem from="1558419984448" duration="1023000" />
+      <workItem from="1558425500322" duration="729000" />
+      <workItem from="1558428596546" duration="576000" />
+      <workItem from="1558429224414" duration="2234000" />
+      <workItem from="1558494954938" duration="2967000" />
+      <workItem from="1558498553504" duration="1038000" />
+      <workItem from="1558504836158" duration="2324000" />
+      <workItem from="1558507612399" duration="385000" />
+      <workItem from="1558508157252" duration="124000" />
+      <workItem from="1558509195776" duration="5021000" />
+      <workItem from="1558515111919" duration="548000" />
+      <workItem from="1558515811116" duration="293000" />
+      <workItem from="1558520946357" duration="2320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TeacherServiceTest_editTeacher - 2019.05.03 at 14h 21m 09s.xml">
+      <configuration name="TeacherServiceTest.editTeacher" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherServiceTest_editTeacher - 2019.05.03 at 14h 21m 23s.xml">
+      <configuration name="TeacherServiceTest.editTeacher" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EncryptionUtilTest_MD5 - 2019.05.14 at 22h 37m 30s.xml">
+      <configuration name="EncryptionUtilTest.MD5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EncryptionUtilTest_JM - 2019.05.14 at 22h 38m 24s.xml">
+      <configuration name="EncryptionUtilTest.JM" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EncryptionUtilTest_JM - 2019.05.14 at 22h 41m 28s.xml">
+      <configuration name="EncryptionUtilTest.JM" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EncryptionUtilTest_JM - 2019.05.14 at 22h 42m 19s.xml">
+      <configuration name="EncryptionUtilTest.JM" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EncryptionUtilTest_JM - 2019.05.14 at 22h 47m 11s.xml">
+      <configuration name="EncryptionUtilTest.JM" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EncryptionUtilTest_MD5 - 2019.05.14 at 22h 49m 43s.xml">
+      <configuration name="EncryptionUtilTest.MD5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoomsMapperTest - 2019.05.15 at 01h 40m 30s.xml">
+      <configuration name="RoomsMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SystemServiceTest_checkUser - 2019.05.15 at 01h 41m 55s.xml">
+      <configuration name="SystemServiceTest.checkUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="366309000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49768162" visible="true" weight="0.14531139" />
+      <window_info id="Structure" order="1" weight="0.24838941" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Nl-Palette" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.5023184" side_tool="true" weight="0.17537314" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.36402267" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.16258352" />
+      <window_info anchor="bottom" id="Application Servers" order="6" weight="0.32734275" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32850778" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32734275" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5046528" side_tool="true" weight="0.67522466" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49534717" weight="0.68677795" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32850778" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32850778" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.28619152" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.9614891" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.24982105" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.13059701" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32856122" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49768162" visible="true" weight="0.18038654" />
+      <window_info id="Structure" order="1" weight="0.24838941" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Nl-Palette" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.5023184" side_tool="true" weight="0.17537314" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.36402267" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.18819599" />
+      <window_info anchor="bottom" id="Application Servers" order="6" weight="0.32734275" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32850778" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32850778" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.503937" side_tool="true" weight="0.9614891" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.496063" weight="0.9602054" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32850778" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32850778" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.28619152" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.96659243" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.24982105" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.13059701" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32856122" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/pom.xml">
+      <expanded value="true" />
+    </buildFile>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmemberPersonal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/VCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/SqlUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/ResponseUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/StringTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/DateUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/MysqlTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1608">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/BeanUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/EncryptionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyui/themes/default/easyui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="115" column="1" lean-forward="true" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/500.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/404.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Labclassevaluatetables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-589">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Normalclassevaluatetables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/NormalClassCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="176" selection-start-line="16" selection-start-column="164" selection-end-line="16" selection-end-column="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/NormalClassCommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Addnor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="243" column="41" selection-start-line="243" selection-start-column="41" selection-end-line="243" selection-end-column="41" />
+          <folding>
+            <element signature="e#4865#4866#0" expanded="true" />
+            <element signature="e#4913#4914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TaskDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/edu/cuit/tsmgr/service/impl/TaskServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="73" column="78" lean-forward="true" selection-start-line="73" selection-start-column="78" selection-end-line="73" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>tsmgr:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.15012106" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: log4j:log4j:1.2.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.15012106" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33448276" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

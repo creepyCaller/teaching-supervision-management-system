@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tsmgr:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="tsmgr_war.war">
+      <element id="artifact" artifact-name="tsmgr:war exploded" />
+    </root>
+  </artifact>
+</component>

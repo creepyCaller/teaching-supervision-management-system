@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.edu.cuit.tsmgr.dao.TasksMapper" >
+    <resultMap id="BaseResultMap" type="cn.edu.cuit.tsmgr.model.Tasks" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="taskexecuter" property="taskexecuter" jdbcType="VARCHAR" />
+        <result column="teachername" property="teachername" jdbcType="VARCHAR" />
+        <result column="coursename" property="coursename" jdbcType="VARCHAR" />
+        <result column="roomlocation" property="roomlocation" jdbcType="VARCHAR" />
+        <result column="lessontype" property="lessontype" jdbcType="VARCHAR" />
+        <result column="time" property="time" jdbcType="DATE" />
+        <result column="lessonno" property="lessonno" jdbcType="VARCHAR" />
+        <result column="comment" property="comment" jdbcType="VARCHAR" />
+        <result column="classtype" property="classtype" jdbcType="INTEGER" />
+        <result column="finished" property="finished" jdbcType="INTEGER" />
+        <result column="ntid" property="ntid" jdbcType="INTEGER" />
+        <result column="ltid" property="ltid" jdbcType="INTEGER" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id,
+        taskexecuter,
+        teachername,
+        coursename,
+        roomlocation,
+        lessontype,
+        time,
+        lessonno,
+        comment,
+        classtype,
+        finished,
+        ntid,
+        ltid
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" >
+        select
+        <include refid="Base_Column_List" />
+        from tasks
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </select>
+
+    <delete id="deleteByPrimaryKey" >
+        delete from tasks
+        where
+        id = #{id,jdbcType=INTEGER}
+        
+    </delete>
+
+    <delete id="deleteByPrimaryKeys" >
+        delete from tasks
+        where <foreach collection="primaryKeys" item = "primaryKey" separator=" or " >id = #{primaryKey,jdbcType=INTEGER}</foreach>
+    </delete>
+
+    <insert id="insert" parameterType="cn.edu.cuit.tsmgr.model.Tasks" >
+        insert into tasks (
+            id,
+            taskexecuter,
+            teachername,
+            coursename,
+            roomlocation,
+            lessontype,
+            time,
+            lessonno,
+            comment,
+            classtype,
+            finished,
+            ntid,
+            ltid
+        )
+        values (
+            #{id,jdbcType=INTEGER},
+            #{taskexecuter,jdbcType=VARCHAR},
+            #{teachername,jdbcType=VARCHAR},
+            #{coursename,jdbcType=VARCHAR},
+            #{roomlocation,jdbcType=VARCHAR},
+            #{lessontype,jdbcType=VARCHAR},
+            #{time,jdbcType=DATE},
+            #{lessonno,jdbcType=VARCHAR},
+            #{comment,jdbcType=VARCHAR},
+            #{classtype,jdbcType=INTEGER},
+            #{finished,jdbcType=INTEGER},
+            #{ntid,jdbcType=INTEGER},
+            #{ltid,jdbcType=INTEGER}
+        )
+    </insert>
+
+    <insert id="insertSelective" parameterType="cn.edu.cuit.tsmgr.model.Tasks" >
+        insert into tasks
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                id,
+            </if>
+            <if test="taskexecuter != null" >
+                taskexecuter,
+            </if>
+            <if test="teachername != null" >
+                teachername,
+            </if>
+            <if test="coursename != null" >
+                coursename,
+            </if>
+            <if test="roomlocation != null" >
+                roomlocation,
+            </if>
+            <if test="lessontype != null" >
+                lessontype,
+            </if>
+            <if test="time != null" >
+                time,
+            </if>
+            <if test="lessonno != null" >
+                lessonno,
+            </if>
+            <if test="comment != null" >
+                comment,
+            </if>
+            <if test="classtype != null" >
+                classtype,
+            </if>
+            <if test="finished != null" >
+                finished,
+            </if>
+            <if test="ntid != null" >
+                ntid,
+            </if>
+            <if test="ltid != null" >
+                ltid,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="taskexecuter != null" >
+                #{taskexecuter,jdbcType=VARCHAR},
+            </if>
+            <if test="teachername != null" >
+                #{teachername,jdbcType=VARCHAR},
+            </if>
+            <if test="coursename != null" >
+                #{coursename,jdbcType=VARCHAR},
+            </if>
+            <if test="roomlocation != null" >
+                #{roomlocation,jdbcType=VARCHAR},
+            </if>
+            <if test="lessontype != null" >
+                #{lessontype,jdbcType=VARCHAR},
+            </if>
+            <if test="time != null" >
+                #{time,jdbcType=DATE},
+            </if>
+            <if test="lessonno != null" >
+                #{lessonno,jdbcType=VARCHAR},
+            </if>
+            <if test="comment != null" >
+                #{comment,jdbcType=VARCHAR},
+            </if>
+            <if test="classtype != null" >
+                #{classtype,jdbcType=INTEGER},
+            </if>
+            <if test="finished != null" >
+                #{finished,jdbcType=INTEGER},
+            </if>
+            <if test="ntid != null" >
+                #{ntid,jdbcType=INTEGER},
+            </if>
+            <if test="ltid != null" >
+                #{ltid,jdbcType=INTEGER},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="cn.edu.cuit.tsmgr.model.Tasks" >
+        update tasks
+        <set >
+            <if test="id != null" >
+                id = #{id,jdbcType=INTEGER},
+            </if>
+            <if test="taskexecuter != null" >
+                taskexecuter = #{taskexecuter,jdbcType=VARCHAR},
+            </if>
+            <if test="teachername != null" >
+                teachername = #{teachername,jdbcType=VARCHAR},
+            </if>
+            <if test="coursename != null" >
+                coursename = #{coursename,jdbcType=VARCHAR},
+            </if>
+            <if test="roomlocation != null" >
+                roomlocation = #{roomlocation,jdbcType=VARCHAR},
+            </if>
+            <if test="lessontype != null" >
+                lessontype = #{lessontype,jdbcType=VARCHAR},
+            </if>
+            <if test="time != null" >
+                time = #{time,jdbcType=DATE},
+            </if>
+            <if test="lessonno != null" >
+                lessonno = #{lessonno,jdbcType=VARCHAR},
+            </if>
+            <if test="comment != null" >
+                comment = #{comment,jdbcType=VARCHAR},
+            </if>
+            <if test="classtype != null" >
+                classtype = #{classtype,jdbcType=INTEGER},
+            </if>
+            <if test="finished != null" >
+                finished = #{finished,jdbcType=INTEGER},
+            </if>
+            <if test="ntid != null" >
+                ntid = #{ntid,jdbcType=INTEGER},
+            </if>
+            <if test="ltid != null" >
+                ltid = #{ltid,jdbcType=INTEGER},
+            </if>
+        </set>
+            where
+            id = #{id,jdbcType=INTEGER}
+                
+    </update>
+
+    <update id="updateByPrimaryKey" parameterType="cn.edu.cuit.tsmgr.model.Tasks" >
+        update tasks
+        set
+        <trim suffixOverrides="," >
+            taskexecuter = #{taskexecuter,jdbcType=VARCHAR},
+            teachername = #{teachername,jdbcType=VARCHAR},
+            coursename = #{coursename,jdbcType=VARCHAR},
+            roomlocation = #{roomlocation,jdbcType=VARCHAR},
+            lessontype = #{lessontype,jdbcType=VARCHAR},
+            time = #{time,jdbcType=DATE},
+            lessonno = #{lessonno,jdbcType=VARCHAR},
+            comment = #{comment,jdbcType=VARCHAR},
+            classtype = #{classtype,jdbcType=INTEGER},
+            finished = #{finished,jdbcType=INTEGER},
+            ntid = #{ntid,jdbcType=INTEGER},
+            ltid = #{ltid,jdbcType=INTEGER},
+        </trim>
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </update>
+
+    <select id="loadModels" resultMap="BaseResultMap">
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        from tasks
+        <if test="condition != null">
+            where ${condition}
+        </if>
+        <if test="order != null and sort != null">
+            order by ${order} ${sort}
+        </if>
+        <if test="offset != -1 and limit != -1">
+            limit #{offset,jdbcType=INTEGER}, #{limit,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <select id="loadMaps" resultType="java.util.HashMap">
+        select
+        <if test="parameters != null">
+         ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        from tasks
+        <if test="condition != null">
+            where ${condition}
+        </if>
+        <if test="order != null and sort != null">
+            order by ${order} ${sort}
+        </if>
+        <if test="offset != -1 and limit != -1">
+            limit #{offset,jdbcType=INTEGER}, #{limit,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <select id="count" resultType="long">
+        select count(
+        <if test="isDistinct == true">
+            distinct
+        </if>
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        ) from tasks
+        <if test="condition != null">
+            where ${condition}
+        </if>
+    </select>
+
+    <select id="findModel" resultMap="BaseResultMap" >
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if> from tasks
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </select>
+
+    <select id="findMap" resultType="java.util.HashMap" >
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if> from tasks
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </select>
+</mapper>

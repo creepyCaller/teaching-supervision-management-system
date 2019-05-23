@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.edu.cuit.tsmgr.dao.NormalclassevaluatetablesMapper" >
+    <resultMap id="BaseResultMap" type="cn.edu.cuit.tsmgr.model.Normalclassevaluatetables" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="teachername" property="teachername" jdbcType="VARCHAR" />
+        <result column="coursename" property="coursename" jdbcType="VARCHAR" />
+        <result column="classname" property="classname" jdbcType="VARCHAR" />
+        <result column="roomlocation" property="roomlocation" jdbcType="VARCHAR" />
+        <result column="compiler" property="compiler" jdbcType="VARCHAR" />
+        <result column="time" property="time" jdbcType="DATE" />
+        <result column="lessonno" property="lessonno" jdbcType="VARCHAR" />
+        <result column="theme" property="theme" jdbcType="VARCHAR" />
+        <result column="t1" property="t1" jdbcType="INTEGER" />
+        <result column="t2" property="t2" jdbcType="INTEGER" />
+        <result column="t3" property="t3" jdbcType="INTEGER" />
+        <result column="t4" property="t4" jdbcType="INTEGER" />
+        <result column="t5" property="t5" jdbcType="INTEGER" />
+        <result column="t6" property="t6" jdbcType="INTEGER" />
+        <result column="t7" property="t7" jdbcType="INTEGER" />
+        <result column="t8" property="t8" jdbcType="INTEGER" />
+        <result column="t9" property="t9" jdbcType="INTEGER" />
+        <result column="t10" property="t10" jdbcType="INTEGER" />
+        <result column="generallevel" property="generallevel" jdbcType="INTEGER" />
+        <result column="teachercondition" property="teachercondition" jdbcType="INTEGER" />
+        <result column="classatomspere" property="classatomspere" jdbcType="INTEGER" />
+        <result column="studentscondition" property="studentscondition" jdbcType="INTEGER" />
+        <result column="playphone" property="playphone" jdbcType="INTEGER" />
+        <result column="bookcondition" property="bookcondition" jdbcType="INTEGER" />
+        <result column="lookupcondition" property="lookupcondition" jdbcType="INTEGER" />
+        <result column="sitecondition" property="sitecondition" jdbcType="INTEGER" />
+        <result column="teachingshape" property="teachingshape" jdbcType="INTEGER" />
+        <result column="iscolleage" property="iscolleage" jdbcType="INTEGER" />
+        <result column="generalcomment" property="generalcomment" jdbcType="VARCHAR" />
+        <result column="other" property="other" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id,
+        teachername,
+        coursename,
+        classname,
+        roomlocation,
+        compiler,
+        time,
+        lessonno,
+        theme,
+        t1,
+        t2,
+        t3,
+        t4,
+        t5,
+        t6,
+        t7,
+        t8,
+        t9,
+        t10,
+        generallevel,
+        teachercondition,
+        classatomspere,
+        studentscondition,
+        playphone,
+        bookcondition,
+        lookupcondition,
+        sitecondition,
+        teachingshape,
+        iscolleage,
+        generalcomment,
+        other
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" >
+        select
+        <include refid="Base_Column_List" />
+        from normalclassevaluatetables
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </select>
+
+    <delete id="deleteByPrimaryKey" >
+        delete from normalclassevaluatetables
+        where
+        id = #{id,jdbcType=INTEGER}
+        
+    </delete>
+
+    <delete id="deleteByPrimaryKeys" >
+        delete from normalclassevaluatetables
+        where <foreach collection="primaryKeys" item = "primaryKey" separator=" or " >id = #{primaryKey,jdbcType=INTEGER}</foreach>
+    </delete>
+
+    <insert id="insert" parameterType="cn.edu.cuit.tsmgr.model.Normalclassevaluatetables" >
+        insert into normalclassevaluatetables (
+            id,
+            teachername,
+            coursename,
+            classname,
+            roomlocation,
+            compiler,
+            time,
+            lessonno,
+            theme,
+            t1,
+            t2,
+            t3,
+            t4,
+            t5,
+            t6,
+            t7,
+            t8,
+            t9,
+            t10,
+            generallevel,
+            teachercondition,
+            classatomspere,
+            studentscondition,
+            playphone,
+            bookcondition,
+            lookupcondition,
+            sitecondition,
+            teachingshape,
+            iscolleage,
+            generalcomment,
+            other
+        )
+        values (
+            #{id,jdbcType=INTEGER},
+            #{teachername,jdbcType=VARCHAR},
+            #{coursename,jdbcType=VARCHAR},
+            #{classname,jdbcType=VARCHAR},
+            #{roomlocation,jdbcType=VARCHAR},
+            #{compiler,jdbcType=VARCHAR},
+            #{time,jdbcType=DATE},
+            #{lessonno,jdbcType=VARCHAR},
+            #{theme,jdbcType=VARCHAR},
+            #{t1,jdbcType=INTEGER},
+            #{t2,jdbcType=INTEGER},
+            #{t3,jdbcType=INTEGER},
+            #{t4,jdbcType=INTEGER},
+            #{t5,jdbcType=INTEGER},
+            #{t6,jdbcType=INTEGER},
+            #{t7,jdbcType=INTEGER},
+            #{t8,jdbcType=INTEGER},
+            #{t9,jdbcType=INTEGER},
+            #{t10,jdbcType=INTEGER},
+            #{generallevel,jdbcType=INTEGER},
+            #{teachercondition,jdbcType=INTEGER},
+            #{classatomspere,jdbcType=INTEGER},
+            #{studentscondition,jdbcType=INTEGER},
+            #{playphone,jdbcType=INTEGER},
+            #{bookcondition,jdbcType=INTEGER},
+            #{lookupcondition,jdbcType=INTEGER},
+            #{sitecondition,jdbcType=INTEGER},
+            #{teachingshape,jdbcType=INTEGER},
+            #{iscolleage,jdbcType=INTEGER},
+            #{generalcomment,jdbcType=VARCHAR},
+            #{other,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <insert id="insertSelective" parameterType="cn.edu.cuit.tsmgr.model.Normalclassevaluatetables" >
+        insert into normalclassevaluatetables
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                id,
+            </if>
+            <if test="teachername != null" >
+                teachername,
+            </if>
+            <if test="coursename != null" >
+                coursename,
+            </if>
+            <if test="classname != null" >
+                classname,
+            </if>
+            <if test="roomlocation != null" >
+                roomlocation,
+            </if>
+            <if test="compiler != null" >
+                compiler,
+            </if>
+            <if test="time != null" >
+                time,
+            </if>
+            <if test="lessonno != null" >
+                lessonno,
+            </if>
+            <if test="theme != null" >
+                theme,
+            </if>
+            <if test="t1 != null" >
+                t1,
+            </if>
+            <if test="t2 != null" >
+                t2,
+            </if>
+            <if test="t3 != null" >
+                t3,
+            </if>
+            <if test="t4 != null" >
+                t4,
+            </if>
+            <if test="t5 != null" >
+                t5,
+            </if>
+            <if test="t6 != null" >
+                t6,
+            </if>
+            <if test="t7 != null" >
+                t7,
+            </if>
+            <if test="t8 != null" >
+                t8,
+            </if>
+            <if test="t9 != null" >
+                t9,
+            </if>
+            <if test="t10 != null" >
+                t10,
+            </if>
+            <if test="generallevel != null" >
+                generallevel,
+            </if>
+            <if test="teachercondition != null" >
+                teachercondition,
+            </if>
+            <if test="classatomspere != null" >
+                classatomspere,
+            </if>
+            <if test="studentscondition != null" >
+                studentscondition,
+            </if>
+            <if test="playphone != null" >
+                playphone,
+            </if>
+            <if test="bookcondition != null" >
+                bookcondition,
+            </if>
+            <if test="lookupcondition != null" >
+                lookupcondition,
+            </if>
+            <if test="sitecondition != null" >
+                sitecondition,
+            </if>
+            <if test="teachingshape != null" >
+                teachingshape,
+            </if>
+            <if test="iscolleage != null" >
+                iscolleage,
+            </if>
+            <if test="generalcomment != null" >
+                generalcomment,
+            </if>
+            <if test="other != null" >
+                other,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="teachername != null" >
+                #{teachername,jdbcType=VARCHAR},
+            </if>
+            <if test="coursename != null" >
+                #{coursename,jdbcType=VARCHAR},
+            </if>
+            <if test="classname != null" >
+                #{classname,jdbcType=VARCHAR},
+            </if>
+            <if test="roomlocation != null" >
+                #{roomlocation,jdbcType=VARCHAR},
+            </if>
+            <if test="compiler != null" >
+                #{compiler,jdbcType=VARCHAR},
+            </if>
+            <if test="time != null" >
+                #{time,jdbcType=DATE},
+            </if>
+            <if test="lessonno != null" >
+                #{lessonno,jdbcType=VARCHAR},
+            </if>
+            <if test="theme != null" >
+                #{theme,jdbcType=VARCHAR},
+            </if>
+            <if test="t1 != null" >
+                #{t1,jdbcType=INTEGER},
+            </if>
+            <if test="t2 != null" >
+                #{t2,jdbcType=INTEGER},
+            </if>
+            <if test="t3 != null" >
+                #{t3,jdbcType=INTEGER},
+            </if>
+            <if test="t4 != null" >
+                #{t4,jdbcType=INTEGER},
+            </if>
+            <if test="t5 != null" >
+                #{t5,jdbcType=INTEGER},
+            </if>
+            <if test="t6 != null" >
+                #{t6,jdbcType=INTEGER},
+            </if>
+            <if test="t7 != null" >
+                #{t7,jdbcType=INTEGER},
+            </if>
+            <if test="t8 != null" >
+                #{t8,jdbcType=INTEGER},
+            </if>
+            <if test="t9 != null" >
+                #{t9,jdbcType=INTEGER},
+            </if>
+            <if test="t10 != null" >
+                #{t10,jdbcType=INTEGER},
+            </if>
+            <if test="generallevel != null" >
+                #{generallevel,jdbcType=INTEGER},
+            </if>
+            <if test="teachercondition != null" >
+                #{teachercondition,jdbcType=INTEGER},
+            </if>
+            <if test="classatomspere != null" >
+                #{classatomspere,jdbcType=INTEGER},
+            </if>
+            <if test="studentscondition != null" >
+                #{studentscondition,jdbcType=INTEGER},
+            </if>
+            <if test="playphone != null" >
+                #{playphone,jdbcType=INTEGER},
+            </if>
+            <if test="bookcondition != null" >
+                #{bookcondition,jdbcType=INTEGER},
+            </if>
+            <if test="lookupcondition != null" >
+                #{lookupcondition,jdbcType=INTEGER},
+            </if>
+            <if test="sitecondition != null" >
+                #{sitecondition,jdbcType=INTEGER},
+            </if>
+            <if test="teachingshape != null" >
+                #{teachingshape,jdbcType=INTEGER},
+            </if>
+            <if test="iscolleage != null" >
+                #{iscolleage,jdbcType=INTEGER},
+            </if>
+            <if test="generalcomment != null" >
+                #{generalcomment,jdbcType=VARCHAR},
+            </if>
+            <if test="other != null" >
+                #{other,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="cn.edu.cuit.tsmgr.model.Normalclassevaluatetables" >
+        update normalclassevaluatetables
+        <set >
+            <if test="id != null" >
+                id = #{id,jdbcType=INTEGER},
+            </if>
+            <if test="teachername != null" >
+                teachername = #{teachername,jdbcType=VARCHAR},
+            </if>
+            <if test="coursename != null" >
+                coursename = #{coursename,jdbcType=VARCHAR},
+            </if>
+            <if test="classname != null" >
+                classname = #{classname,jdbcType=VARCHAR},
+            </if>
+            <if test="roomlocation != null" >
+                roomlocation = #{roomlocation,jdbcType=VARCHAR},
+            </if>
+            <if test="compiler != null" >
+                compiler = #{compiler,jdbcType=VARCHAR},
+            </if>
+            <if test="time != null" >
+                time = #{time,jdbcType=DATE},
+            </if>
+            <if test="lessonno != null" >
+                lessonno = #{lessonno,jdbcType=VARCHAR},
+            </if>
+            <if test="theme != null" >
+                theme = #{theme,jdbcType=VARCHAR},
+            </if>
+            <if test="t1 != null" >
+                t1 = #{t1,jdbcType=INTEGER},
+            </if>
+            <if test="t2 != null" >
+                t2 = #{t2,jdbcType=INTEGER},
+            </if>
+            <if test="t3 != null" >
+                t3 = #{t3,jdbcType=INTEGER},
+            </if>
+            <if test="t4 != null" >
+                t4 = #{t4,jdbcType=INTEGER},
+            </if>
+            <if test="t5 != null" >
+                t5 = #{t5,jdbcType=INTEGER},
+            </if>
+            <if test="t6 != null" >
+                t6 = #{t6,jdbcType=INTEGER},
+            </if>
+            <if test="t7 != null" >
+                t7 = #{t7,jdbcType=INTEGER},
+            </if>
+            <if test="t8 != null" >
+                t8 = #{t8,jdbcType=INTEGER},
+            </if>
+            <if test="t9 != null" >
+                t9 = #{t9,jdbcType=INTEGER},
+            </if>
+            <if test="t10 != null" >
+                t10 = #{t10,jdbcType=INTEGER},
+            </if>
+            <if test="generallevel != null" >
+                generallevel = #{generallevel,jdbcType=INTEGER},
+            </if>
+            <if test="teachercondition != null" >
+                teachercondition = #{teachercondition,jdbcType=INTEGER},
+            </if>
+            <if test="classatomspere != null" >
+                classatomspere = #{classatomspere,jdbcType=INTEGER},
+            </if>
+            <if test="studentscondition != null" >
+                studentscondition = #{studentscondition,jdbcType=INTEGER},
+            </if>
+            <if test="playphone != null" >
+                playphone = #{playphone,jdbcType=INTEGER},
+            </if>
+            <if test="bookcondition != null" >
+                bookcondition = #{bookcondition,jdbcType=INTEGER},
+            </if>
+            <if test="lookupcondition != null" >
+                lookupcondition = #{lookupcondition,jdbcType=INTEGER},
+            </if>
+            <if test="sitecondition != null" >
+                sitecondition = #{sitecondition,jdbcType=INTEGER},
+            </if>
+            <if test="teachingshape != null" >
+                teachingshape = #{teachingshape,jdbcType=INTEGER},
+            </if>
+            <if test="iscolleage != null" >
+                iscolleage = #{iscolleage,jdbcType=INTEGER},
+            </if>
+            <if test="generalcomment != null" >
+                generalcomment = #{generalcomment,jdbcType=VARCHAR},
+            </if>
+            <if test="other != null" >
+                other = #{other,jdbcType=VARCHAR},
+            </if>
+        </set>
+            where
+            id = #{id,jdbcType=INTEGER}
+                
+    </update>
+
+    <update id="updateByPrimaryKey" parameterType="cn.edu.cuit.tsmgr.model.Normalclassevaluatetables" >
+        update normalclassevaluatetables
+        set
+        <trim suffixOverrides="," >
+            teachername = #{teachername,jdbcType=VARCHAR},
+            coursename = #{coursename,jdbcType=VARCHAR},
+            classname = #{classname,jdbcType=VARCHAR},
+            roomlocation = #{roomlocation,jdbcType=VARCHAR},
+            compiler = #{compiler,jdbcType=VARCHAR},
+            time = #{time,jdbcType=DATE},
+            lessonno = #{lessonno,jdbcType=VARCHAR},
+            theme = #{theme,jdbcType=VARCHAR},
+            t1 = #{t1,jdbcType=INTEGER},
+            t2 = #{t2,jdbcType=INTEGER},
+            t3 = #{t3,jdbcType=INTEGER},
+            t4 = #{t4,jdbcType=INTEGER},
+            t5 = #{t5,jdbcType=INTEGER},
+            t6 = #{t6,jdbcType=INTEGER},
+            t7 = #{t7,jdbcType=INTEGER},
+            t8 = #{t8,jdbcType=INTEGER},
+            t9 = #{t9,jdbcType=INTEGER},
+            t10 = #{t10,jdbcType=INTEGER},
+            generallevel = #{generallevel,jdbcType=INTEGER},
+            teachercondition = #{teachercondition,jdbcType=INTEGER},
+            classatomspere = #{classatomspere,jdbcType=INTEGER},
+            studentscondition = #{studentscondition,jdbcType=INTEGER},
+            playphone = #{playphone,jdbcType=INTEGER},
+            bookcondition = #{bookcondition,jdbcType=INTEGER},
+            lookupcondition = #{lookupcondition,jdbcType=INTEGER},
+            sitecondition = #{sitecondition,jdbcType=INTEGER},
+            teachingshape = #{teachingshape,jdbcType=INTEGER},
+            iscolleage = #{iscolleage,jdbcType=INTEGER},
+            generalcomment = #{generalcomment,jdbcType=VARCHAR},
+            other = #{other,jdbcType=VARCHAR},
+        </trim>
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </update>
+
+    <select id="loadModels" resultMap="BaseResultMap">
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        from normalclassevaluatetables
+        <if test="condition != null">
+            where ${condition}
+        </if>
+        <if test="order != null and sort != null">
+            order by ${order} ${sort}
+        </if>
+        <if test="offset != -1 and limit != -1">
+            limit #{offset,jdbcType=INTEGER}, #{limit,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <select id="loadMaps" resultType="java.util.HashMap">
+        select
+        <if test="parameters != null">
+         ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        from normalclassevaluatetables
+        <if test="condition != null">
+            where ${condition}
+        </if>
+        <if test="order != null and sort != null">
+            order by ${order} ${sort}
+        </if>
+        <if test="offset != -1 and limit != -1">
+            limit #{offset,jdbcType=INTEGER}, #{limit,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <select id="count" resultType="long">
+        select count(
+        <if test="isDistinct == true">
+            distinct
+        </if>
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if>
+        ) from normalclassevaluatetables
+        <if test="condition != null">
+            where ${condition}
+        </if>
+    </select>
+
+    <select id="findModel" resultMap="BaseResultMap" >
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if> from normalclassevaluatetables
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </select>
+
+    <select id="findMap" resultType="java.util.HashMap" >
+        select
+        <if test="parameters != null">
+            ${parameters}
+        </if>
+        <if test="parameters == null">
+            *
+        </if> from normalclassevaluatetables
+        where
+        id = #{id,jdbcType=INTEGER}
+            
+    </select>
+</mapper>

@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="tsmgr@localhost">
+  <database-model serializer="dbm" dbms="UNKNOWN" family-id="UNKNOWN" format-version="4.15">
+    <root id="1">
+      <ServerVersion>0.0</ServerVersion>
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <database id="2" parent="1" name="b3log_symphony"/>
+    <database id="3" parent="1" name="blog"/>
+    <database id="4" parent="1" name="carrent"/>
+    <database id="5" parent="1" name="forum"/>
+    <database id="6" parent="1" name="gg"/>
+    <database id="7" parent="1" name="information_schema"/>
+    <database id="8" parent="1" name="jforum"/>
+    <database id="9" parent="1" name="message"/>
+    <database id="10" parent="1" name="mysql"/>
+    <database id="11" parent="1" name="mytest"/>
+    <database id="12" parent="1" name="test"/>
+    <database id="13" parent="1" name="tsmgr">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="14" parent="13">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="15" parent="14" name="classes"/>
+    <table id="16" parent="14" name="clazz"/>
+    <table id="17" parent="14" name="clazz_course_teacher"/>
+    <table id="18" parent="14" name="course"/>
+    <table id="19" parent="14" name="courses"/>
+    <table id="20" parent="14" name="escore"/>
+    <table id="21" parent="14" name="exam"/>
+    <table id="22" parent="14" name="grade"/>
+    <table id="23" parent="14" name="grade_course"/>
+    <table id="24" parent="14" name="labclassevaluatetables"/>
+    <table id="25" parent="14" name="message"/>
+    <table id="26" parent="14" name="normalclassevaluatetables"/>
+    <table id="27" parent="14" name="rooms"/>
+    <table id="28" parent="14" name="sgmembers"/>
+    <table id="29" parent="14" name="student"/>
+    <table id="30" parent="14" name="system"/>
+    <table id="31" parent="14" name="systemimformation"/>
+    <table id="32" parent="14" name="tasks"/>
+    <table id="33" parent="14" name="teacher"/>
+    <table id="34" parent="14" name="teachers"/>
+    <table id="35" parent="14" name="user"/>
+    <table id="36" parent="14" name="userinfo"/>
+    <table id="37" parent="14" name="users"/>
+    <column id="38" parent="15" name="className">
+      <Position>1</Position>
+      <Comment>班级名：专业简称；（方向）；级；班别，计算机（应用）163</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="39" parent="15" name="major">
+      <Position>2</Position>
+      <Comment>专业</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="40" parent="15" name="school">
+      <Position>3</Position>
+      <Comment>学院</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="41" parent="15" name="PRIMARY">
+      <ColNames>className</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="42" parent="15" name="PRIMARY">
+      <ColNames>className</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="43" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="44" parent="16" name="name">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+    </column>
+    <column id="45" parent="16" name="gradeid">
+      <Position>3</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <index id="46" parent="16" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="47" parent="16" name="gid_clazz_FK">
+      <ColNames>gradeid</ColNames>
+    </index>
+    <key id="48" parent="16" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="49" parent="16" name="gradeid_clazz_FK">
+      <ColNames>gradeid</ColNames>
+      <RefTableName>grade</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="50" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="51" parent="17" name="clazzid">
+      <Position>2</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="52" parent="17" name="gradeid">
+      <Position>3</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="53" parent="17" name="courseid">
+      <Position>4</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="54" parent="17" name="teacherid">
+      <Position>5</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <index id="55" parent="17" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="56" parent="17" name="clazzid_cct_FK">
+      <ColNames>clazzid</ColNames>
+    </index>
+    <index id="57" parent="17" name="gradeid_cct_FK">
+      <ColNames>gradeid</ColNames>
+    </index>
+    <index id="58" parent="17" name="courseid_cct_FK">
+      <ColNames>courseid</ColNames>
+    </index>
+    <index id="59" parent="17" name="tid_cct_FK">
+      <ColNames>teacherid</ColNames>
+    </index>
+    <key id="60" parent="17" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="61" parent="17" name="clazzid_cct_FK">
+      <ColNames>clazzid</ColNames>
+      <RefTableName>clazz</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="62" parent="17" name="teacherid_cct_FK">
+      <ColNames>teacherid</ColNames>
+      <RefTableName>teacher</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="63" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="64" parent="18" name="name">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+    </column>
+    <index id="65" parent="18" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="66" parent="18" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="67" parent="19" name="courseName">
+      <Position>1</Position>
+      <Comment>课程名称</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="68" parent="19" name="school">
+      <Position>2</Position>
+      <Comment>开设学院</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="69" parent="19" name="teacherName">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="70" parent="19" name="roomLocation">
+      <Position>4</Position>
+      <Comment>上课地点</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="71" parent="19" name="lessonType">
+      <Position>5</Position>
+      <Comment>课程类型：实验课，公共课、基础课、专业基础课、必修课、选修课、专业选修课</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="72" parent="19" name="time">
+      <Position>6</Position>
+      <DataType>DATE(10)|91s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="73" parent="19" name="lessonNo">
+      <Position>7</Position>
+      <Comment>第几节课，1-2，7-8，这种,因为一般都是两节课连在一起</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="74" parent="19" name="PRIMARY">
+      <ColNames>courseName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="75" parent="19" name="PRIMARY">
+      <ColNames>courseName</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="76" parent="20" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="77" parent="20" name="examid">
+      <Position>2</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="78" parent="20" name="clazzid">
+      <Position>3</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="79" parent="20" name="studentid">
+      <Position>4</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="80" parent="20" name="gradeid">
+      <Position>5</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="81" parent="20" name="courseid">
+      <Position>6</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="82" parent="20" name="score">
+      <Position>7</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <index id="83" parent="20" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="84" parent="20" name="eid_escore_FK">
+      <ColNames>examid</ColNames>
+    </index>
+    <index id="85" parent="20" name="clazzid_escore_FK">
+      <ColNames>clazzid</ColNames>
+    </index>
+    <index id="86" parent="20" name="sid_escore_FK">
+      <ColNames>studentid</ColNames>
+    </index>
+    <index id="87" parent="20" name="gradeid_escore_FK">
+      <ColNames>gradeid</ColNames>
+    </index>
+    <index id="88" parent="20" name="courseid_escore_FK">
+      <ColNames>courseid</ColNames>
+    </index>
+    <key id="89" parent="20" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="90" parent="20" name="examid_escore_FK">
+      <ColNames>examid</ColNames>
+      <RefTableName>exam</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="91" parent="20" name="clazzid_escore_FK">
+      <ColNames>clazzid</ColNames>
+      <RefTableName>clazz</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="92" parent="20" name="studentid_escore_FK">
+      <ColNames>studentid</ColNames>
+      <RefTableName>student</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="93" parent="20" name="gradeid_escore_FK">
+      <ColNames>gradeid</ColNames>
+      <RefTableName>grade_course</RefTableName>
+      <RefColNames>gradeid</RefColNames>
+    </foreign-key>
+    <foreign-key id="94" parent="20" name="courseid_escore_FK">
+      <ColNames>courseid</ColNames>
+      <RefTableName>grade_course</RefTableName>
+      <RefColNames>courseid</RefColNames>
+    </foreign-key>
+    <column id="95" parent="21" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="96" parent="21" name="name">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+    </column>
+    <column id="97" parent="21" name="time">
+      <Position>3</Position>
+      <DataType>DATE(10)|91s</DataType>
+    </column>
+    <column id="98" parent="21" name="remark">
+      <Position>4</Position>
+      <DataType>VARCHAR(200)|12s</DataType>
+    </column>
+    <column id="99" parent="21" name="type">
+      <Position>5</Position>
+      <DataType>TINYINT(3)|-6s</DataType>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="100" parent="21" name="gradeid">
+      <Position>6</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="101" parent="21" name="clazzid">
+      <Position>7</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="102" parent="21" name="courseid">
+      <Position>8</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <index id="103" parent="21" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="104" parent="21" name="gid_exam_FK">
+      <ColNames>gradeid</ColNames>
+    </index>
+    <index id="105" parent="21" name="clazzid_exam_FK">
+      <ColNames>clazzid</ColNames>
+    </index>
+    <key id="106" parent="21" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="107" parent="21" name="gradeid_exam_FK">
+      <ColNames>gradeid</ColNames>
+      <RefTableName>grade</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="108" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="109" parent="22" name="name">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+    </column>
+    <index id="110" parent="22" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="111" parent="22" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="112" parent="23" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="113" parent="23" name="gradeid">
+      <Position>2</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="114" parent="23" name="courseid">
+      <Position>3</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <index id="115" parent="23" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="116" parent="23" name="gid_gc_FK">
+      <ColNames>gradeid</ColNames>
+    </index>
+    <index id="117" parent="23" name="cid_gc_FK">
+      <ColNames>courseid</ColNames>
+    </index>
+    <key id="118" parent="23" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="119" parent="23" name="gradeid_gc_FK">
+      <ColNames>gradeid</ColNames>
+      <RefTableName>grade</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="120" parent="23" name="courseid_gc_FK">
+      <ColNames>courseid</ColNames>
+      <RefTableName>course</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="121" parent="24" name="teacherName">
+      <Position>1</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="122" parent="24" name="courseName">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="123" parent="24" name="className">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="124" parent="24" name="roomLocation">
+      <Position>4</Position>
+      <Comment>编辑者</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="125" parent="24" name="compiler">
+      <Position>5</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="126" parent="24" name="time">
+      <Position>6</Position>
+      <DataType>DATE(10)|91s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="127" parent="24" name="lessonNo">
+      <Position>7</Position>
+      <Comment>第几节课，1-2，7-8，这种,因为一般都是两节课连在一起</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="128" parent="24" name="theme">
+      <Position>8</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="129" parent="24" name="T1">
+      <Position>9</Position>
+      <Comment>备课充分，有完整的实验教案或讲义，熟悉实验内容，实验目的明确，内容充实，符合教学大纲要求；</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="130" parent="24" name="T2">
+      <Position>10</Position>
+      <Comment>分组及人数符合实验要求，指导教师讲授具有启发性，熟悉仪器设备，操作示范正确，熟练。</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="131" parent="24" name="T3">
+      <Position>11</Position>
+      <Comment>普通话熟练，口头语言表达清楚准确，富有感染力和吸引力，采用板书或其他教学手段（如多媒体、直观教学）演示和介绍实验内容效果良好。</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="132" parent="24" name="T4">
+      <Position>12</Position>
+      <Comment>实验各环节时间把握恰当，注重引导学生思考和学生实际动手能力的培养，注重探索与改进实验教学方法，重视课堂内外师生双向交流。</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="133" parent="24" name="T5">
+      <Position>13</Position>
+      <Comment>遵守教学与课堂纪律，上课通信工具关闭，不迟到早退，准时上下课；</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="134" parent="24" name="T6">
+      <Position>14</Position>
+      <Comment>为人师表，注重教态仪表和言行身教，教书的同时注重育人，引导学生积极向上，不对学生宣讲负面和具有消极影响的言论；</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="135" parent="24" name="T7">
+      <Position>15</Position>
+      <Comment>对学生要求严格，善于管理学生上课出勤和课堂纪律，对原始实验数据审查严格，对实验报告批阅认真规范</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="136" parent="24" name="T8">
+      <Position>16</Position>
+      <Comment>学生实验兴趣浓，思维活跃，注意力集中，实验秩序纪律好，通过本节实验课的教学，学生能掌握本节课的教学内容，感觉受启发，收获大。</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="137" parent="24" name="generalLevel">
+      <Position>17</Position>
+      <Comment>总评等级</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="138" parent="24" name="generalComment">
+      <Position>18</Position>
+      <Comment>综合评语</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="139" parent="24" name="labMgrLevel">
+      <Position>19</Position>
+      <Comment>按时开门，环境整洁，实验仪器设备维护完好，台套数满足教学要求；实验室管理规范，室内醒目位置有文字式的管理制度与操作规范，</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="140" parent="24" name="PRIMARY">
+      <ColNames>teacherName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="141" parent="24" name="PRIMARY">
+      <ColNames>teacherName</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="142" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>INT UNSIGNED(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="143" parent="25" name="command">
+      <Position>2</Position>
+      <DataType>VARCHAR(30)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="144" parent="25" name="description">
+      <Position>3</Position>
+      <DataType>VARCHAR(30)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="145" parent="25" name="content">
+      <Position>4</Position>
+      <DataType>VARCHAR(30)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="146" parent="25" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="147" parent="25" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="148" parent="26" name="teacherName">
+      <Position>1</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="149" parent="26" name="courseName">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="150" parent="26" name="className">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="151" parent="26" name="roomLocation">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="152" parent="26" name="compiler">
+      <Position>5</Position>
+      <Comment>编辑者</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="153" parent="26" name="time">
+      <Position>6</Position>
+      <DataType>DATE(10)|91s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="154" parent="26" name="lessonNo">
+      <Position>7</Position>
+      <Comment>第几节课，1-2，7-8，这种,因为一般都是两节课连在一起</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="155" parent="26" name="theme">
+      <Position>8</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="156" parent="26" name="T1">
+      <Position>9</Position>
+      <Comment>教学内容和目标明确，符合教学大纲要求</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="157" parent="26" name="T2">
+      <Position>10</Position>
+      <Comment>教学内容娴熟，问题阐述收放自如</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="158" parent="26" name="T3">
+      <Position>11</Position>
+      <Comment>讲述条理清晰，概念准确，重点突出</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="159" parent="26" name="T4">
+      <Position>12</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="160" parent="26" name="T5">
+      <Position>13</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="161" parent="26" name="T6">
+      <Position>14</Position>
+      <Comment>有先进的教学理念、实用的教学方法，教学设计精心、课堂效果好</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="162" parent="26" name="T7">
+      <Position>15</Position>
+      <Comment>能启发引导学生积极、主动思考</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="163" parent="26" name="T8">
+      <Position>16</Position>
+      <Comment>与学生交流互动好，课堂氛围活跃</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="164" parent="26" name="T9">
+      <Position>17</Position>
+      <Comment>学生注意力集中，课堂纪律好</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="165" parent="26" name="T10">
+      <Position>18</Position>
+      <Comment>通过本节课的教学内容，学生能掌握本节课的教学内容，感觉受启发，收获大</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="166" parent="26" name="generalLevel">
+      <Position>19</Position>
+      <Comment>总评</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="167" parent="26" name="teacherCondition">
+      <Position>20</Position>
+      <Comment>1，提前进教室准备；2，迟到；3，早退</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="168" parent="26" name="classAtomspere">
+      <Position>21</Position>
+      <Comment>课堂氛围</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="169" parent="26" name="studentsCondition">
+      <Position>22</Position>
+      <Comment>学生情况</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="170" parent="26" name="bookCondition">
+      <Position>23</Position>
+      <Comment>教材情况</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="171" parent="26" name="lookUpCondition">
+      <Position>24</Position>
+      <Comment>抬头情况</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="172" parent="26" name="siteCondition">
+      <Position>25</Position>
+      <Comment>就坐情况</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="173" parent="26" name="teachingShape">
+      <Position>26</Position>
+      <Comment>授课形式</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="174" parent="26" name="generalComment">
+      <Position>27</Position>
+      <Comment>总体评价</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="175" parent="26" name="other">
+      <Position>28</Position>
+      <Comment>其他</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="176" parent="26" name="PRIMARY">
+      <ColNames>teacherName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="177" parent="26" name="PRIMARY">
+      <ColNames>teacherName</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="178" parent="27" name="roomLocation">
+      <Position>1</Position>
+      <Comment>教室位置：校区，H——航空港，L——龙泉，R——人南；（用途）；第i教学楼；楼层里各教室的编号</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="179" parent="27" name="usage">
+      <Position>2</Position>
+      <Comment>教室昵称，用于对教室备注，比如，H5301为“ACM训练基地”</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="180" parent="27" name="type">
+      <Position>3</Position>
+      <Comment>类型：教室, 实验室</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="181" parent="27" name="PRIMARY">
+      <ColNames>roomLocation</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="182" parent="27" name="PRIMARY">
+      <ColNames>roomLocation</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="183" parent="28" name="sgmName">
+      <Position>1</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="184" parent="28" name="id">
+      <Position>2</Position>
+      <Comment>用户账户id</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <index id="185" parent="28" name="PRIMARY">
+      <ColNames>sgmName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="186" parent="28" name="PRIMARY">
+      <ColNames>sgmName</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="187" parent="29" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="188" parent="29" name="number">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="189" parent="29" name="name">
+      <Position>3</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="190" parent="29" name="sex">
+      <Position>4</Position>
+      <DataType>VARCHAR(4)|12s</DataType>
+    </column>
+    <column id="191" parent="29" name="phone">
+      <Position>5</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="192" parent="29" name="qq">
+      <Position>6</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="193" parent="29" name="photo">
+      <Position>7</Position>
+      <DataType>MEDIUMBLOB(16777215)|-4s</DataType>
+    </column>
+    <column id="194" parent="29" name="clazzid">
+      <Position>8</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <column id="195" parent="29" name="gradeid">
+      <Position>9</Position>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <index id="196" parent="29" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="197" parent="29" name="number_student_FK">
+      <ColNames>number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="198" parent="29" name="cid_stu_FK">
+      <ColNames>clazzid</ColNames>
+    </index>
+    <index id="199" parent="29" name="grade_student_FK">
+      <ColNames>gradeid</ColNames>
+    </index>
+    <key id="200" parent="29" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="201" parent="29" name="number_student_FK">
+      <ColNames>number</ColNames>
+    </key>
+    <foreign-key id="202" parent="29" name="clazzid_student_FK">
+      <ColNames>clazzid</ColNames>
+      <RefTableName>clazz</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="203" parent="29" name="grade_student_FK">
+      <ColNames>gradeid</ColNames>
+      <RefTableName>grade</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="204" parent="30" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="205" parent="30" name="schoolName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|12s</DataType>
+    </column>
+    <column id="206" parent="30" name="forbidTeacher">
+      <Position>3</Position>
+      <DataType>TINYINT(3)|-6s</DataType>
+    </column>
+    <column id="207" parent="30" name="forbidStudent">
+      <Position>4</Position>
+      <DataType>TINYINT(3)|-6s</DataType>
+    </column>
+    <column id="208" parent="30" name="noticeTeacher">
+      <Position>5</Position>
+      <DataType>VARCHAR(500)|12s</DataType>
+    </column>
+    <column id="209" parent="30" name="noticeStudent">
+      <Position>6</Position>
+      <DataType>VARCHAR(500)|12s</DataType>
+    </column>
+    <index id="210" parent="30" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="211" parent="30" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="212" parent="31" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="213" parent="31" name="collegeName">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|12s</DataType>
+    </column>
+    <column id="214" parent="31" name="schoolName">
+      <Position>3</Position>
+      <DataType>VARCHAR(100)|12s</DataType>
+    </column>
+    <column id="215" parent="31" name="forbidTeacher">
+      <Position>4</Position>
+      <DataType>TINYINT(3)|-6s</DataType>
+    </column>
+    <column id="216" parent="31" name="forbidTSMember">
+      <Position>5</Position>
+      <DataType>TINYINT(3)|-6s</DataType>
+    </column>
+    <column id="217" parent="31" name="noticeTeacher">
+      <Position>6</Position>
+      <DataType>VARCHAR(500)|12s</DataType>
+    </column>
+    <column id="218" parent="31" name="noticeTSMember">
+      <Position>7</Position>
+      <DataType>VARCHAR(500)|12s</DataType>
+    </column>
+    <index id="219" parent="31" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="220" parent="31" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="221" parent="32" name="taskExecuter">
+      <Position>1</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="222" parent="32" name="teacherName">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="223" parent="32" name="courseName">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="224" parent="32" name="roomLocation">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="225" parent="32" name="lessonType">
+      <Position>5</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="226" parent="32" name="time">
+      <Position>6</Position>
+      <DataType>DATE(10)|91s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="227" parent="32" name="lessonNo">
+      <Position>7</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="228" parent="32" name="comment">
+      <Position>8</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="229" parent="32" name="PRIMARY">
+      <ColNames>taskExecuter</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="230" parent="32" name="PRIMARY">
+      <ColNames>taskExecuter</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="231" parent="33" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="232" parent="33" name="number">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="233" parent="33" name="name">
+      <Position>3</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="234" parent="33" name="sex">
+      <Position>4</Position>
+      <DataType>VARCHAR(4)|12s</DataType>
+    </column>
+    <column id="235" parent="33" name="phone">
+      <Position>5</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="236" parent="33" name="qq">
+      <Position>6</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="237" parent="33" name="photo">
+      <Position>7</Position>
+      <DataType>MEDIUMBLOB(16777215)|-4s</DataType>
+    </column>
+    <index id="238" parent="33" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="239" parent="33" name="number_teacher_FK">
+      <ColNames>number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="240" parent="33" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="241" parent="33" name="number_teacher_FK">
+      <ColNames>number</ColNames>
+    </key>
+    <column id="242" parent="34" name="teacherName">
+      <Position>1</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="243" parent="34" name="id">
+      <Position>2</Position>
+      <Comment>用户账户id</Comment>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <index id="244" parent="34" name="PRIMARY">
+      <ColNames>teacherName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="245" parent="34" name="PRIMARY">
+      <ColNames>teacherName</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="246" parent="35" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="247" parent="35" name="account">
+      <Position>2</Position>
+      <DataType>VARCHAR(30)|12s</DataType>
+    </column>
+    <column id="248" parent="35" name="password">
+      <Position>3</Position>
+      <DataType>VARCHAR(30)|12s</DataType>
+      <DefaultExpression>&apos;111111&apos;</DefaultExpression>
+    </column>
+    <column id="249" parent="35" name="name">
+      <Position>4</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="250" parent="35" name="type">
+      <Position>5</Position>
+      <DataType>TINYINT(3)|-6s</DataType>
+      <DefaultExpression>2</DefaultExpression>
+    </column>
+    <index id="251" parent="35" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="252" parent="35" name="account_user_FK">
+      <ColNames>account</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="253" parent="35" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="254" parent="35" name="account_user_FK">
+      <ColNames>account</ColNames>
+    </key>
+    <column id="255" parent="36" name="id">
+      <Position>1</Position>
+      <DataType>INT UNSIGNED(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="256" parent="36" name="sex">
+      <Position>2</Position>
+      <DataType>BIT(1)|-7s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="257" parent="36" name="name">
+      <Position>3</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="258" parent="36" name="pw">
+      <Position>4</Position>
+      <DataType>VARCHAR(500)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="259" parent="36" name="createtime">
+      <Position>5</Position>
+      <DataType>DATETIME(19)|93s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="260" parent="36" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="261" parent="36" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="262" parent="37" name="userName">
+      <Position>1</Position>
+      <Comment>登录名</Comment>
+      <DataType>VARCHAR(64)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="263" parent="37" name="sgmName">
+      <Position>2</Position>
+      <DataType>VARCHAR(64)|12s</DataType>
+    </column>
+    <column id="264" parent="37" name="teacherName">
+      <Position>3</Position>
+      <DataType>VARCHAR(64)|12s</DataType>
+    </column>
+    <column id="265" parent="37" name="password">
+      <Position>4</Position>
+      <DataType>VARCHAR(128)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="266" parent="37" name="registeDate">
+      <Position>5</Position>
+      <DataType>DATETIME(19)|93s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="267" parent="37" name="type">
+      <Position>6</Position>
+      <Comment>1，管理员；2，督导员；3，老师</Comment>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="268" parent="37" name="PRIMARY">
+      <ColNames>userName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="269" parent="37" name="PRIMARY">
+      <ColNames>userName</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
