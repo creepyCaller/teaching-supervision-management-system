@@ -20,9 +20,9 @@ public class LabClassCommentService implements BaseServiceInter {
                 new Object[]{
                         al.getTeachername(),al.getCoursename(),al.getClassname(),al.getRoomlocation(),al.getTaskexecuter(),al.getTime(),al.getLessonno(),al.getTheme(),al.getT1(),al.getT2(),al.getT3(),al.getT4(),al.getT5(),al.getT6(),al.getT7(),al.getT8(),al.getGenerallevel(),al.getGeneralcomment(),al.getLabmgrlevel()
                 });
-        dao.update("UPDATE tasks SET finished=1,ntid=(SELECT max(id) FROM labclassevaluatetables) WHERE id=?",
+        dao.update("UPDATE tasks SET finished=1,ntid=(SELECT max(id) FROM labclassevaluatetables),ltid=? WHERE id=?",
                 new Object[]{
-                        al.getId()
+                        al.getGenerallevel(), al.getId()
                 });
     }
 }

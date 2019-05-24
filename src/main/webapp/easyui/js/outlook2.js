@@ -3,9 +3,7 @@ $(function(){
 	InitLeftMenu();
 	tabClose();
 	tabCloseEven();
-
-
-})
+});
 
 //初始化左侧
 function InitLeftMenu() {
@@ -15,14 +13,13 @@ function InitLeftMenu() {
 		var menulist ='';
 		menulist +='<ul>';
         $.each(n.menus, function(j, o) {
-			menulist += '<li><div><a ref="'+o.menuid+'" href="#" rel="' + o.url + '" ><span class="icon '+o.icon+'" >&nbsp;</span><span class="nav">' + o.menuname + '</span></a></div></li> ';
-        })
+			menulist += '<li><div><a ref="'+o.menuid+'" href="#" rel="' + o.url + '" ><span class="nav">' + o.menuname + '</span></a></div></li> ';
+        });
 		menulist += '</ul>';
 
 		$('#nav').accordion('add', {
             title: n.menuname,
-            content: menulist,
-            iconCls: 'icon ' + n.icon
+            content: menulist
         });
 
     });
@@ -32,9 +29,8 @@ function InitLeftMenu() {
 
 		var url = $(this).attr("rel");
 		var menuid = $(this).attr("ref");
-		var icon = getIcon(menuid,icon);
 
-		addTab(tabTitle,url,icon);
+		addTab(tabTitle,url);
 		$('.easyui-accordion li div').removeClass("selected");
 		$(this).parent().addClass("selected");
 	}).hover(function(){
@@ -44,31 +40,17 @@ function InitLeftMenu() {
 	});
 
 	//选中第一个
-	var panels = $('#nav').accordion('panels');
-	var t = panels[0].panel('options').title;
-    $('#nav').accordion('select', t);
-}
-//获取左侧导航的图标
-function getIcon(menuid){
-	var icon = 'icon ';
-	$.each(_menus.menus, function(i, n) {
-		 $.each(n.menus, function(j, o) {
-		 	if(o.menuid==menuid){
-				icon += o.icon;
-			}
-		 })
-	})
-
-	return icon;
+	//var panels = $('#nav').accordion('panels');
+	//var t = panels[0].panel('options').title;
+    //$('#nav').accordion('select', t);
 }
 
-function addTab(subtitle,url,icon){
+function addTab(subtitle,url){
 	if(!$('#tabs').tabs('exists',subtitle)){
 		$('#tabs').tabs('add',{
 			title:subtitle,
 			content:createFrame(url),
-			closable:true,
-			icon:icon
+			closable:true
 		});
 	}else{
 		$('#tabs').tabs('select',subtitle);
@@ -89,7 +71,7 @@ function tabClose()
 	$(".tabs-inner").dblclick(function(){
 		var subtitle = $(this).children(".tabs-closable").text();
 		$('#tabs').tabs('close',subtitle);
-	})
+	});
 	/*为选项卡绑定右键*/
 	$(".tabs-inner").bind('contextmenu',function(e){
 		$('#mm').menu('show', {
@@ -117,12 +99,12 @@ function tabCloseEven()
 				content:createFrame(url)
 			}
 		})
-	})
+	});
 	//关闭当前
 	$('#mm-tabclose').click(function(){
 		var currtab_title = $('#mm').data("currtab");
 		$('#tabs').tabs('close',currtab_title);
-	})
+	});
 	//全部关闭
 	$('#mm-tabcloseall').click(function(){
 		$('.tabs-inner span').each(function(i,n){
@@ -166,7 +148,7 @@ function tabCloseEven()
 	//退出
 	$("#mm-exit").click(function(){
 		$('#mm').menu('hide');
-	})
+	});
 }
 
 //弹出信息窗口 title:标题 msgString:提示信息 msgType:信息类型 [error,info,question,warning]

@@ -19,103 +19,418 @@
       <change afterPath="$PROJECT_DIR$/../ssm-maven/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ssm-maven/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ssm-maven/ssm-maven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tsmgr_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/AddAdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/BaseControllerInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/ClassController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/DispatcherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/LabClassCommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/NormalClassCommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/RegisteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/RoomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/SaveNameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/SystemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TSMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/ViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/AddAdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/AddLabCommentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/AddNorCommentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/ClassDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/CommentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/CourseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/RoomDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TSMemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TaskDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/ViewDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/filter/VisitFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/listener/SystemInitListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Addlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Addnor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/BaseServiceInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/SaveNameServiceInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/SystemServiceInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/AddAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/ClassService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/LabClassCommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/NormalClassCommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/RoomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SaveNameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SystemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TSMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/ViewService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/EncryptionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/MysqlTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/StringTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/VCodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-dbutils-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmember.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmemberPersonal.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/edu/cuit/tsmgr/service/impl/TaskServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tsmgrsys/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tsmgrsys/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tsmgrsys/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tsmgrsys/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/LabClassCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/LabClassCommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/NormalClassCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/NormalClassCommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/404.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/500.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmember.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmember.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmemberPersonal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmemberPersonal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/easyui/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/accordion/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/accordion/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/accordion/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/animation/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/animation/fade.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/animation/pop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/animation/slide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/badge/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/badge/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/badge/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/badge/tabs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/button/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/button/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/button/style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/button/switch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/datagrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/datagrid/rowediting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/datalist/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/datalist/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/datalist/selection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/dialog/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/dialog/message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/form/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/images/login1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/images/modem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/images/more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/images/pda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/images/scanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/images/tablet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/input/numberspinner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/input/textbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/layout/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/menu/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/menu/menubar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/panel/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/panel/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/panel/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/panel/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/simplelist/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/simplelist/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/simplelist/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/simplelist/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/simplelist/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/tabs/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/tabs/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/tabs/pill.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/toolbar/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/toolbar/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/toolbar/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/tree/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo-mobile/tree/dnd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/accordion/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/accordion/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/accordion/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/accordion/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/accordion/datagrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/accordion/expandable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/accordion/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/accordion/horizontal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/accordion/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/accordion/tools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/calendar/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/calendar/custom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/calendar/disabledate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/calendar/firstday.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/calendar/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/calendar/weeknumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/checkbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combo/animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combo/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/combobox_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/combobox_data2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/customformat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/dynamicdata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/itemicon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/multiline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/remotedata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combobox/remotejsonp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combogrid/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combogrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combogrid/datagrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combogrid/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combogrid/initvalue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combogrid/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combogrid/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combogrid/setvalue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combotree/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combotree/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combotree/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combotree/initvalue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combotree/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combotree/tree_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combotreegrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combotreegrid/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/combotreegrid/treegrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/aligncolumns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/cacheeditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/cellediting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/cellstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/clientpagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/columngroup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/complextoolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/contextmenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/custompager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/datagrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/datagrid_data2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/formatcolumns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/frozencolumns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/frozenrows.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/mergecells.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/multisorting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/rowborder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/rowediting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/rowstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/selection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/simpletoolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datagrid/transform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datalist/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datalist/checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datalist/datalist_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datalist/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datalist/multiselect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datalist/remotedata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datebox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datebox/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datebox/clone.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datebox/dateformat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datebox/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datebox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datebox/restrict.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datebox/sharedcalendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datebox/validate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datetimebox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datetimebox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datetimebox/initvalue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datetimebox/showseconds.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datetimespinner/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datetimespinner/clearicon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datetimespinner/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/datetimespinner/format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/dialog/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/dialog/complextoolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/dialog/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/dialog/toolbarbuttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/draggable/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/draggable/constrain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/draggable/snap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/droppable/accept.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/droppable/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/droppable/sort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/easyloader/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/filebox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/filebox/buttonalign.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/filebox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/form/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/form/form_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/form/load.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/form/validateonsubmit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/addremove.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/autoheight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/collapsetitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/complex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/customcollapsetitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/datagrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/nestedlayout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/nocollapsible.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/propertygrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/layout/tree_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/linkbutton/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/linkbutton/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/linkbutton/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/linkbutton/iconalign.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/linkbutton/plain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/linkbutton/size.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/linkbutton/style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/linkbutton/toggle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/maskedbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/menu/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/menu/customitem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/menu/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/menu/inline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/menu/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/menubutton/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/menubutton/alignment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/menubutton/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/menubutton/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/messager/alert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/messager/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/messager/interactive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/messager/position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/numberbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/numberbox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/numberbox/format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/numberbox/range.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/numberspinner/align.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/numberspinner/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/numberspinner/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/numberspinner/increment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/numberspinner/range.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/pagination/attaching.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/pagination/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/pagination/custombuttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/pagination/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/pagination/links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/pagination/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/panel/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/panel/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/panel/customtools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/panel/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/panel/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/panel/halign.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/panel/loadcontent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/panel/nestedpanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/panel/paneltools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/passwordbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/passwordbox/flash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/passwordbox/validatepassword.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/progressbar/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/progressbar/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/propertygrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/propertygrid/customcolumns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/propertygrid/groupformat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/propertygrid/propertygrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/radiobutton/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/resizable/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/searchbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/searchbox/category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/searchbox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/sidemenu/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/sidemenu/sidemenu_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/sidemenu/style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/slider/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/slider/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/slider/formattip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/slider/nonlinear.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/slider/range.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/slider/rule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/slider/vertical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/splitbutton/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/splitbutton/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/switchbutton/action.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/switchbutton/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/autoheight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/fixedwidth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/hover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/images/modem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/images/pda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/images/scanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/images/tablet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/nestedtabs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/striptools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/tabimage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/tabposition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/tabstools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tabs/tree_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tagbox/autocomplete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tagbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tagbox/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tagbox/format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tagbox/style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tagbox/tagbox_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tagbox/validate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/textbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/textbox/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/textbox/clearicon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/textbox/custom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/textbox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/textbox/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/textbox/multiline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/textbox/size.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/timespinner/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/timespinner/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/timespinner/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/timespinner/hour12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/timespinner/range.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tooltip/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tooltip/_dialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tooltip/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tooltip/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tooltip/customcontent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tooltip/customstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tooltip/position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tooltip/toolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tooltip/tooltipdialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/contextmenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/customcheckbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/dnd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/editable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/formatting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/lazyload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/lines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/tree_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/tree/tree_data2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/clientpagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/contextmenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/customcheckbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/editable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/lines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/treegrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/treegrid_data2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/treegrid/treegrid_data3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/validatebox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/validatebox/customtooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/validatebox/errorplacement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/validatebox/validateonblur.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/window/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/window/borderstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/window/customtools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/window/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/window/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/window/inlinewindow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/window/modalwindow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/demo/window/windowlayout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/js/outlook2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/easyui/js/outlook2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-am.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-cz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-jp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-pt_BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-sv_SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-zh_CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-zh_TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/themes/material-teal/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/material-teal/easyui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsmgr.sql" beforeDir="false" afterPath="$PROJECT_DIR$/tsmgr.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -142,102 +457,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="73" column="78" lean-forward="true" selection-start-line="73" selection-start-column="78" selection-end-line="73" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cn/edu/cuit/tsmgr/service/impl/TaskServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TaskDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/NormalClassCommentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Addnor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1410">
-              <caret line="243" column="41" selection-start-line="243" selection-start-column="41" selection-end-line="243" selection-end-column="41" />
-              <folding>
-                <element signature="e#4865#4866#0" expanded="true" />
-                <element signature="e#4913#4914#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/NormalClassCommentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="16" column="176" selection-start-line="16" selection-start-column="164" selection-end-line="16" selection-end-column="176" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Normalclassevaluatetables.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="52" column="36" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Labclassevaluatetables.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-589">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -253,8 +473,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Name</find>
-      <find>commentForm</find>
       <find>add_generallevel</find>
       <find>Teacher</find>
       <find>Stat</find>
@@ -283,6 +501,8 @@
       <find>玩手机</find>
       <find>350</find>
       <find>300</find>
+      <find>&quot;icon&quot;:&quot;&quot;,</find>
+      <find>icon</find>
     </findStrings>
     <replaceStrings>
       <replace>Room</replace>
@@ -323,10 +543,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Labclassevaluatetables.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Normalclassevaluatetables.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/ViewService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/ViewController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SystemService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/SystemController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/listener/SystemInitListener.java" />
@@ -340,40 +556,44 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/StmtController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/stat.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/DispatcherController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmember.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TaskDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/filter/VisitFilter.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp" />
         <option value="$PROJECT_DIR$/src/test/java/cn/edu/cuit/tsmgr/service/impl/TaskServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/NormalClassCommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/LabClassCommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmemberPersonal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/easyui/js/outlook2.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmember.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp" />
       </list>
     </option>
   </component>
@@ -418,8 +638,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="357" />
-    <option name="y" value="88" />
+    <option name="x" value="295" />
+    <option name="y" value="60" />
     <option name="width" value="1302" />
     <option name="height" value="864" />
   </component>
@@ -431,138 +651,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="tsmember" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1060,6 +1150,9 @@
       <workItem from="1558515111919" duration="548000" />
       <workItem from="1558515811116" duration="293000" />
       <workItem from="1558520946357" duration="2320000" />
+      <workItem from="1558710820075" duration="6339000" />
+      <workItem from="1558718428807" duration="1490000" />
+      <workItem from="1558720216266" duration="124000" />
     </task>
     <servers />
   </component>
@@ -1096,7 +1189,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366309000" />
+    <option name="totallyTimeSpent" value="374262000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1108,9 +1201,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49768162" visible="true" weight="0.14531139" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49768162" visible="true" weight="0.14978679" />
       <window_info id="Structure" order="1" weight="0.24838941" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1129,14 +1222,14 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32850778" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32734275" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5046528" side_tool="true" weight="0.67522466" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49534717" weight="0.68677795" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49534717" weight="0.6848552" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32850778" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32850778" />
       <window_info anchor="bottom" id="TODO" order="14" weight="0.28619152" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.9614891" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.24982105" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.24946696" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -1237,34 +1330,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmemberPersonal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/VCodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/SqlUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/ResponseUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/StringTool.java">
@@ -1300,226 +1365,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/500.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/404.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Labclassevaluatetables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-589">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Normalclassevaluatetables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="52" column="36" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/NormalClassCommentService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/edu/cuit/tsmgr/service/impl/TaskServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="16" column="176" selection-start-line="16" selection-start-column="164" selection-end-line="16" selection-end-column="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/NormalClassCommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Addnor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="243" column="41" selection-start-line="243" selection-start-column="41" selection-end-line="243" selection-end-column="41" />
-          <folding>
-            <element signature="e#4865#4866#0" expanded="true" />
-            <element signature="e#4913#4914#0" expanded="true" />
-          </folding>
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -1530,31 +1382,289 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/edu/cuit/tsmgr/service/impl/TaskServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="2059">
+          <caret line="141" column="30" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/NormalClassCommentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+        <state relative-caret-position="620">
+          <caret line="48" column="139" selection-start-line="48" selection-start-column="139" selection-end-line="48" selection-end-column="139" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Addnor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="243" column="41" selection-start-line="243" selection-start-column="41" selection-end-line="243" selection-end-column="41" />
+          <folding>
+            <element signature="e#4865#4866#0" expanded="true" />
+            <element signature="e#4913#4914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Normalclassevaluatetables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Labclassevaluatetables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/NormalClassCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/LabClassCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/500.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/404.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+        <state>
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="285" column="135" selection-start-line="285" selection-start-column="135" selection-end-line="285" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="252" column="135" selection-start-line="252" selection-start-column="135" selection-end-line="252" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="118" column="135" selection-start-line="118" selection-start-column="120" selection-end-line="118" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1672">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="155" column="139" selection-start-line="155" selection-start-column="139" selection-end-line="155" selection-end-column="139" />
+          <folding>
+            <element signature="e#2282#5470#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="109" column="53" lean-forward="true" selection-start-line="109" selection-start-column="53" selection-end-line="109" selection-end-column="53" />
+          <folding>
+            <element signature="e#937#4590#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+          <folding>
+            <element signature="e#638#644#0#HTML" expanded="true" />
+            <element signature="e#721#727#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="63" lean-forward="true" selection-start-column="63" selection-end-column="63" />
+          <folding>
+            <element signature="e#642#648#0#HTML" expanded="true" />
+            <element signature="e#725#731#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="110" lean-forward="true" selection-start-line="9" selection-start-column="110" selection-end-line="9" selection-end-column="110" />
+          <folding>
+            <element signature="e#473#479#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmemberPersonal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="25" column="92" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="92" lean-forward="true" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="152" column="40" lean-forward="true" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="73" column="78" lean-forward="true" selection-start-line="73" selection-start-column="78" selection-end-line="73" selection-end-column="78" />
+        <state relative-caret-position="95">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyui/js/outlook2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmember.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5928">
+          <caret line="312" column="37" selection-start-line="312" selection-start-column="37" selection-end-line="312" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="105" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="288" column="16" lean-forward="true" selection-start-line="288" selection-start-column="16" selection-end-line="288" selection-end-column="16" />
         </state>
       </provider>
     </entry>

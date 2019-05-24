@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -23,7 +23,7 @@
         .table-bordered{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;border-left:0}
         .table-bordered th,.table-bordered td{border-left:1px solid #ddd}
         .table-border.table-bordered{border-bottom:0}
-        .table-striped tbody > tr:nth-child(odd) > td,.table-striped tbody > tr:nth-child(odd) > th{background-color:#f9f9f9}
+        .table-striped tbody > tr:nth-child(odd) > td,.table-striped tbody > tr:nth-child(odd) > th{background-color:#fff}
     </style>
     <script type="text/javascript">
         $(function() {
@@ -44,15 +44,15 @@
                 remoteSort: false,
                 columns: [[
                     {field:'chk',checkbox: true,width:50},
-                    {field:'id',title:'ID',width:25, sortable: true},
-                    {field:'taskexecuter',title:'任务执行人',width:75, sortable: true},
-                    {field:'teachername',title:'教师名称',width:75, sortable: true},
+                    {field:'id',title:'ID',width:50, sortable: true},
+                    {field:'taskexecuter',title:'任务执行人',width:100, sortable: true},
+                    {field:'teachername',title:'教师名称',width:100, sortable: true},
                     {field:'coursename',title:'课程名称',width:150, sortable: true},
                     {field:'roomlocation',title:'上课地点',width:100, sortable: true},
                     {field:'etime',title:'上课日期',width:100, sortable: true},
                     {field:'lessontype',title:'课程类型',width:100, sortable: true},
-                    {field:'lessonno',title:'上课节次',width:60, sortable: true},
-                    {field:'classtype',title:'讲授类型',width:60, sortable: true,
+                    {field:'lessonno',title:'上课节次',width:100, sortable: true},
+                    {field:'classtype',title:'讲授类型',width:100, sortable: true,
                         formatter: function(value,row,index) {
                             if(value == 0){
                                 return "理论课"
@@ -62,7 +62,7 @@
                         }
                     },
                     {field:'comment',title:'备注',width:200},
-                    {field:'finished',title:'完成情况',width:60, sortable: true,
+                    {field:'finished',title:'完成情况',width:100, sortable: true,
                         formatter: function(value,row,index) {
                             if (value == 0){
                                 return "未完成"
@@ -71,7 +71,7 @@
                             }
                         }
                     },
-                    {field:'generallevel',title:'总分',width:60, sortable: true}
+                    {field:'ltid',title:'总分',width:100, sortable: true}
                 ]],
                 toolbar: "#toolbar"
             });

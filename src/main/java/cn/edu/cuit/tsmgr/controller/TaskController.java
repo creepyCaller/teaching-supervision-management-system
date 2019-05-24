@@ -57,7 +57,6 @@ public class TaskController extends HttpServlet implements BaseControllerInter {
         Users user = (Users) request.getSession().getAttribute("user");
         //获取数据
         String result = service.getFTaskList(new Page(page, rows), user);
-        System.out.println(result);
         //返回数据
         response.getWriter().write(result);
     }

@@ -160,7 +160,7 @@ CREATE TABLE `systemimformation` (
 -- ----------------------------
 -- Records of systemimformation
 -- ----------------------------
-INSERT INTO `systemimformation` VALUES ('1', '成都信息工程大学', '计算机学院', '0', '0', '请教师们尽快完成课程评价任务！', '请尽快完成课程评价任务！');
+INSERT INTO `systemimformation` VALUES ('1', 'SCHOOL_NAME', 'SUB_SCHOOL_NAME', '0', '0', 'NOTIFICTION_TEACHERS', 'NOTIFICTION_TEACHING_SUPERVISION_MEMBERS');
 
 -- ----------------------------
 -- Table structure for tasks

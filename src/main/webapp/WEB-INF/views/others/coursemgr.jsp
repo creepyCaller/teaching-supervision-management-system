@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -261,16 +261,16 @@
 <table id="dataList" cellspacing="0" cellpadding="0">
 
 </table>
-<c:if test="${user.type eq 3}">
-<!-- 工具栏 -->
-<div id="toolbar">
-	<div style="float: left;"><a id="add" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">添加</a></div>
-	<div style="float: left;" class="datagrid-btn-separator"></div>
-	<div style="float: left;"><a id="edit" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">修改</a></div>
-	<div style="float: left;" class="datagrid-btn-separator"></div>
-	<div><a id="delete" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-some-delete',plain:true">删除</a></div>
-</div>
-</c:if>
+	<!-- 工具栏 -->
+	<div id="toolbar">
+		<div style="float: left;"><a id="add" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">添加</a></div>
+		<div style="float: left;" class="datagrid-btn-separator"></div>
+		<c:if test="${user.type eq 3}">
+		<div style="float: left;"><a id="edit" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">修改</a></div>
+		<div style="float: left;" class="datagrid-btn-separator"></div>
+		<div><a id="delete" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-some-delete',plain:true">删除</a></div>
+		</c:if>
+	</div>
 <!-- 添加窗口 -->
 <div id="addDialog" style="padding: 10px">
 	<form id="addForm" method="post">
@@ -304,10 +304,18 @@
 					</select>
 				</td>
 			</tr>
+			<c:if test="${user.type eq 2}" var="result">
 			<tr>
 				<td>教师名称:</td>
-				<td><input id="add_teachername" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="teachername" data-options="required:true, missingMessage:'请填写教师名称'" /></td>
+				<td><input value="${user.name}" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="teachername" data-options=editable:false;" /></td>
 			</tr>
+			</c:if>
+			<c:if test="${!result }">
+				<tr>
+					<td>教师名称:</td>
+					<td><input id="add_teachername" value="${user.name}" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="teachername" data-options=editable:false;" /></td>
+				</tr>
+			</c:if>
 			<tr>
 				<td>上课地点:</td>
 				<td><input id="add_roomlocation" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="roomlocation" data-options="required:true, missingMessage:'请填写上课地点'" /></td>
