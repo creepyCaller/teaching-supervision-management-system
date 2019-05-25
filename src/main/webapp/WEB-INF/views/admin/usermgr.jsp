@@ -29,12 +29,12 @@
                 pagination:true,//分页控件
                 rownumbers:true,//行号
                 sortName:'username',
-                sortOrder:'DESC',
+                sortOrder:'desc',
                 remoteSort: false,
                 columns: [[
                     {field:'blank',width:40},
                     {field:'username',title:'用户名',width:100, sortable: true},
-                    {field:'type',title:'用户类型',width:75,
+                    {field:'type',title:'用户类型',width:100,
                         formatter: function(value,row,index){
                             if(value == 1){
                                 return "督导员"
@@ -45,16 +45,9 @@
                             }
                         }
                     },
-                    {field:'name',title:'姓名',width:75,
-                        formatter: function(value,row,index){
-                            if(value == ""){
-                                return "未设置"
-                            } else {
-                                return value;
-                            }
-                        }
-                    },
-                    {field:'etime',title:'注册日期',width:150, sortable: true}
+                    {field:'teachername',title:'教师姓名',width:100},
+                    {field:'sgmname',title:'督导姓名',width:100},
+                    {field:'etime',title:'注册日期',width:200, sortable: true}
                 ]],
                 toolbar: "#toolbar"
             });

@@ -19,129 +19,9 @@
       <change afterPath="$PROJECT_DIR$/../ssm-maven/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ssm-maven/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ssm-maven/ssm-maven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tsmgr_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/AddAdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/BaseControllerInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/ClassController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/DispatcherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/LabClassCommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/NormalClassCommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/RegisteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/RoomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/SaveNameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/SystemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TSMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/AddAdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/ClassDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/CommentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/CourseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/RoomDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TSMemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TaskDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/filter/VisitFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/listener/SystemInitListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/BaseServiceInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/SaveNameServiceInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/SystemServiceInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/AddAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/ClassService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/LabClassCommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/NormalClassCommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/RoomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SaveNameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SystemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TSMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/EncryptionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/MysqlTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/StringTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/util/VCodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-dbutils-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/moyacomments.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmember.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmemberPersonal.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/DispatcherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/DispatcherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TaskDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/TaskDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SystemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SystemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/500.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminPersonal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/labcourse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/normalcourse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/plantask.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacherPersonal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmember.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmember.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmemberPersonal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/tsmemberPersonal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tsmember/welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/easyui/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/easyui/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/h-ui/css/H-ui.login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/h-ui/css/H-ui.login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/h-ui/images/admin-login-bg.unused.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/labcoursewithvalue.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/normalcoursewithvalue.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,7 +48,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -254,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/StmtDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/StmtService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/StmtController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/stat.jsp" />
@@ -290,13 +168,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/classmgr.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/moyacomments.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/coursemgr.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/roommgr.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/teachermgr.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tsmembermgr.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Users.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
@@ -305,6 +181,10 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/TaskService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/finishedtsk.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/tasks.jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/edu/cuit/tsmgr/controller/RegisteControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/RegisteController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Users.java" />
       </list>
     </option>
   </component>
@@ -348,9 +228,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="114" />
-    <option name="y" value="-12" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="108" />
+    <option name="y" value="43" />
     <option name="width" value="1650" />
     <option name="height" value="902" />
   </component>
@@ -363,8 +243,8 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,6 +269,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.edu.cuit.tsmgr.controller" />
       <recent name="cn.edu.cuit.tsmgr.service.impl" />
       <recent name="cn.edu.cuit.tsmgr.util" />
       <recent name="cn.edu.cuit.tsmgr.dao" />
@@ -396,8 +277,18 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\57628\git\tsmgr\src\main\java\cn\edu\cuit\tsmgr\util" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\views" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF\lib" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.edu.cuit.tsmgr.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.edu.cuit.tsmgr.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF\views\teacher" />
@@ -405,16 +296,6 @@
       <recent name="C:\Users\57628\git\tsmgr\src\main\webapp" />
       <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF\views\tsmember" />
       <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF\views" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.edu.cuit.tsmgr.dao" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\57628\git\tsmgr\src\main\java\cn\edu\cuit\tsmgr\util" />
-      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp" />
-      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\views" />
-      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\57628\git\tsmgr\src\main\webapp\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -872,6 +753,7 @@
       <workItem from="1558760276066" duration="5984000" />
       <workItem from="1558766721525" duration="4193000" />
       <workItem from="1558771022819" duration="119000" />
+      <workItem from="1558773518984" duration="1679000" />
     </task>
     <servers />
   </component>
@@ -908,7 +790,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="397493000" />
+    <option name="totallyTimeSpent" value="399172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -920,9 +802,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="108" y="43" width="1650" height="902" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49768162" visible="true" weight="0.15778251" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49768162" visible="true" weight="0.18805031" />
       <window_info id="Structure" order="1" weight="0.24838941" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -941,7 +823,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32628062" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32734275" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5046528" side_tool="true" weight="0.67522466" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49534717" weight="0.33741647" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49534717" weight="0.20430107" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32850778" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.28619152" />
@@ -1049,51 +931,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/adminSystem.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="155" column="139" selection-start-line="155" selection-start-column="139" selection-end-line="155" selection-end-column="139" />
-          <folding>
-            <element signature="e#2282#5470#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addadmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyui/js/outlook2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/about.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="105" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/dao/jdbc/CourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/CourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/CourseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -1285,13 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SystemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1353,13 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/others/help.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1378,16 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1453,13 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1492,6 +1298,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2413">
           <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/edu/cuit/tsmgr/controller/RegisteControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/AddAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/impl/SystemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="152" column="15" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/service/SystemServiceInter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/RegisteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="65" column="46" lean-forward="true" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/cuit/tsmgr/model/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="98" column="68" selection-start-line="98" selection-start-column="68" selection-end-line="98" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/usermgr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>

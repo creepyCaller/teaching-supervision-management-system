@@ -86,7 +86,7 @@ public class Users implements Serializable {
         }
 
         public void setRegistedate(Date registedate) {
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
             this.etime = sdf.format(registedate);
             this.registedate = registedate;
         }
@@ -96,7 +96,7 @@ public class Users implements Serializable {
         }
 
         public void setEtime(String etime) {
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
             try {
                 this.registedate = sdf.parse(etime);
             } catch (ParseException e) {
