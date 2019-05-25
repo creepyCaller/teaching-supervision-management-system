@@ -138,6 +138,12 @@ public class SystemService implements SystemServiceInter {
         */
         //修改数据库
         BaseDao dao = new BaseDao();
+        if(name.equals("forbidTeacherRegiste")) {
+            name = "forbidteacher";
+        }
+        if(name.equals("forbidTSMemberRegiste")) {
+            name = "forbidtsmember";
+        }
         dao.update("UPDATE systemimformation SET "+name+"=?", new Object[]{value});
         //重新加载数据
         //获取系统初始化对象
