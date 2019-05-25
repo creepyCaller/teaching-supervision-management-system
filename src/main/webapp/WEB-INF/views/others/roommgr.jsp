@@ -33,7 +33,7 @@
 				columns: [[
 					{field:'blank',width:40},
 					{field:'roomlocation',title:'位置',width:100, sortable: true},
-					{field:'roomusage',title:'用途',width:150},
+					{field:'roomusage',title:'用途',width:200},
 					{field:'roomtype',title:'类型',width:100}
 				]],
 				toolbar: "#toolbar"

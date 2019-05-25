@@ -33,7 +33,7 @@
                 remoteSort: false,
                 columns: [[
                     {field:'blank',width:40},
-                    {field:'username',title:'用户名',width:100, sortable: true},
+                    {field:'username',title:'用户名',width:150, sortable: true},
                     {field:'type',title:'用户类型',width:100,
                         formatter: function(value,row,index){
                             if(value == 1){
@@ -47,7 +47,7 @@
                     },
                     {field:'teachername',title:'教师姓名',width:100},
                     {field:'sgmname',title:'督导姓名',width:100},
-                    {field:'etime',title:'注册日期',width:200, sortable: true}
+                    {field:'etime',title:'注册日期',width:100, sortable: true}
                 ]],
                 toolbar: "#toolbar"
             });
@@ -105,7 +105,6 @@
 </table>
 <!-- 工具栏 -->
 <div id="toolbar">
-    <div style="float: left;" class="datagrid-btn-separator"></div>
     <div><a id="delete" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-some-delete',plain:true">删除</a></div>
 </div>
 </body>

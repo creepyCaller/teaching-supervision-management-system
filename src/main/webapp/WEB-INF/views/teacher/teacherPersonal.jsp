@@ -135,7 +135,7 @@
 							<td><a class="easyui-linkbutton">保存</a></td>
 						</tr>
 						<tr>
-							<td width="200">注册时间:</td>
+							<td width="200">注册日期:</td>
 							<td width="350">
 								<input id="registe_date" value="${user.etime}" class="easyui-textbox" style="width: 300px; height: 30px;" type="text" data-options="editable:false" name="registedate" />
 							</td>
@@ -165,7 +165,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td width="200">注册时间:</td>
+							<td width="200">注册日期:</td>
 							<td width="350">
 								<input value="${user.etime}" class="easyui-textbox" style="width: 300px; height: 30px;" type="text" data-options="editable:false"/>
 							</td>

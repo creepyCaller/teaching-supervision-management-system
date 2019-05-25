@@ -29,12 +29,12 @@
                 pagination:true,//分页控件
                 rownumbers:true,//行号
                 sortName:'id',
-                sortOrder:'DESC',
+                sortOrder:'desc',
                 remoteSort: false,
                 columns: [[
                     {field:'blank',width:40},
-                    {field:'id',title:'工号',width:100, sortable: true},
-                    {field:'sgmname',title:'姓名',width:100}
+                    {field:'id',title:'工号',width:150, sortable: true},
+                    {field:'sgmname',title:'姓名',width:200}
                 ]],
                 toolbar: "#toolbar"
             });

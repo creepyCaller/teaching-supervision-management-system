@@ -23,23 +23,22 @@
 				fit: true,//自动大小
 				method: "post",
 				url:"CourseController?method=CourseList&t="+new Date().getTime(),
-				idField:'id',
+				idField:'coursename',
 				singleSelect:false,//是否单选
 				pagination:true,//分页控件
 				rownumbers:true,//行号
-				sortName:'id',
-				sortOrder:'DESC',
+				sortName:'coursename',
+				sortOrder:'desc',
 				remoteSort: false,
 				columns: [[
 					{field:'blank',width:40},
-					{field:'id',title:'ID',width:25, sortable: true},
 					{field:'coursename',title:'课程名称',width:150},
 					{field:'school',title:'开办院系',width:150},
-					{field:'teachername',title:'教师名称',width:75},
-					{field:'roomlocation',title:'上课地点',width:75},
-					{field:'lessontype',title:'课程类型',width:75},
+					{field:'teachername',title:'教师名称',width:100},
+					{field:'roomlocation',title:'上课地点',width:100},
+					{field:'lessontype',title:'课程类型',width:100},
 					{field:'etime',title:'上课日期',width:100, sortable: true},
-					{field:'lessonno',title:'上课节次',width:60}
+					{field:'lessonno',title:'上课节次',width:100}
 				]],
 				toolbar: "#toolbar"
 			});
@@ -259,12 +258,12 @@
 </table>
 	<!-- 工具栏 -->
 	<div id="toolbar">
-		<div style="float: left;"><a id="add" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">添加</a></div>
+		<div style="float: left;"><a id="add" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">添加</a></div>
 		<div style="float: left;" class="datagrid-btn-separator"></div>
 		<c:if test="${user.type eq 3}">
-		<div style="float: left;"><a id="edit" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">修改</a></div>
+		<div style="float: left;"><a id="edit" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">修改</a></div>
 		<div style="float: left;" class="datagrid-btn-separator"></div>
-		<div><a id="delete" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-some-delete',plain:true">删除</a></div>
+		<div><a id="delete" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-some-delete',plain:true">删除</a></div>
 		</c:if>
 	</div>
 <!-- 添加窗口 -->

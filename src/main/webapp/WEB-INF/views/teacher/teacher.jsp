@@ -89,7 +89,7 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="SystemController?method=toTeacherPersonalView">${user.name}(教师)</a></li>
-                    <li><a href="SystemController?method=toTeacherPersonalView">个人</a></li>
+                    <li><a href="SystemController?method=toTeacherPersonalView">个人信息</a></li>
                     <li><a href="SystemController?method=LoginOut">退出</a></li>
                 </ul>
             </div>

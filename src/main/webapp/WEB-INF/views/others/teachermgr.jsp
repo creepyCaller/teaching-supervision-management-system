@@ -33,8 +33,8 @@
 				remoteSort: false,
 				columns: [[
 					{field:'blank',width:40},
-					{field:'id',title:'工号',width:100, sortable: true},
-					{field:'teachername',title:'姓名',width:100}
+					{field:'id',title:'工号',width:150, sortable: true},
+					{field:'teachername',title:'姓名',width:200}
 				]],
 				toolbar: "#toolbar"
 			});

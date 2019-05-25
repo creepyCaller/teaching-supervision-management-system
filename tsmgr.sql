@@ -160,7 +160,7 @@ CREATE TABLE `systemimformation` (
 -- ----------------------------
 -- Records of systemimformation
 -- ----------------------------
-INSERT INTO `systemimformation` VALUES ('1', 'SCHOOL_NAME', 'SUB_SCHOOL_NAME', '0', '0', 'NOTIFICTION_TEACHERS', 'NOTIFICTION_TEACHING_SUPERVISION_MEMBERS');
+INSERT INTO `systemimformation` VALUES ('1', 'SCHOOL_NAME', 'SUB_SCHOOL_NAME', '3', '3', 'NOTIFICTION_TEACHERS', 'NOTIFICTION_TEACHING_SUPERVISION_MEMBERS');
 
 -- ----------------------------
 -- Table structure for tasks
@@ -205,7 +205,7 @@ CREATE TABLE `users` (
   `teachername` varchar(10) DEFAULT NULL,
   `password` varchar(128) NOT NULL,
   `registedate` datetime NOT NULL,
-  `type` int(11) NOT NULL COMMENT '1，管理员；2，督导员；3，老师',
+  `type` int(11) NOT NULL COMMENT '3，管理员；1，督导员；2，老师',
   PRIMARY KEY (`username`),
   KEY `sgmname` (`sgmname`) USING BTREE,
   KEY `teachername` (`teachername`) USING BTREE

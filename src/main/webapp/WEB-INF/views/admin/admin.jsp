@@ -90,7 +90,8 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="SystemController?method=toAdminPersonalView">${user.username}(管理员)</a></li>
-                    <li><a href="SystemController?method=toAdminSystemView">系统</a></li>
+                    <li><a href="SystemController?method=toAdminPersonalView">个人信息</a></li>
+                    <li><a href="SystemController?method=toAdminSystemView">系统设置</a></li>
                     <li><a href="SystemController?method=LoginOut">退出</a></li>
                 </ul>
             </div>
