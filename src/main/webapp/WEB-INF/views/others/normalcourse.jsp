@@ -17,7 +17,7 @@
 	<style type="text/css">
 		.table th{font-weight:bold}
 		.table th,.table td{padding:8px;line-height:20px}
-		.table td{text-align:left}
+		.table td{text-align:center}
 		.table-border{border-top:1px solid #ddd}
 		.table-border th,.table-border td{border-bottom:1px solid #ddd}
 		.table-bordered{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;border-left:0}
@@ -287,34 +287,34 @@
             <tr>
                 <td width="200">任务ID:</td>
                 <td width="350">
-                    <input id="add_id"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="id" data-options="required:true, missingMessage:'请输入任务ID'"/>
+                    <input id="add_id"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="id" data-options="required:true, missingMessage:'请输入任务ID'"/>
                 </td>
                 <td width="200">任务执行人:</td>
                 <c:if test="${user.type eq 3}" var="result">
                     <td width="350">
-                        <input id="add_taskexecuter"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="taskexecuter" data-options="required:true, missingMessage:'请输入任务执行人'"/>
+                        <input id="add_taskexecuter"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="taskexecuter" data-options="required:true, missingMessage:'请输入任务执行人'"/>
                     </td>
                 </c:if>
                 <c:if test="${!result }">
                 <td width="350">
-                    <input value="${user.name}"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="taskexecuter" data-options="editable:false"/>
+                    <input value="${user.name}"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="taskexecuter" data-options="editable:false"/>
                 </td>
                 </c:if>
             </tr>
 			<tr>
                 <td width="200">授课教师姓名:</td>
                 <td width="350">
-                    <input id="add_teachername"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="teachername" data-options="required:true, missingMessage:'请输入教师名称'"/>
+                    <input id="add_teachername"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="teachername" data-options="required:true, missingMessage:'请输入教师名称'"/>
                 </td>
                 <td width="200">课程名称:</td>
                 <td width="350">
-                    <input id="add_coursename"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="coursename" data-options="required:true, missingMessage:'请输入课程名称'"/>
+                    <input id="add_coursename"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="coursename" data-options="required:true, missingMessage:'请输入课程名称'"/>
                 </td>
 			</tr>
 			<tr>
                 <td width="200">授课班级:</td>
                 <td width="350">
-                    <input id="add_classname"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="classname" data-options="required:true, missingMessage:'请输入授课班级'"/>
+                    <input id="add_classname"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="classname" data-options="required:true, missingMessage:'请输入授课班级'"/>
                 </td>
 				<td width="200">授课时间:</td>
 				<td width="350">
@@ -326,11 +326,11 @@
             <tr>
                 <td width="200">授课主题:</td>
                 <td width="350">
-                    <input id="add_theme"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="theme" data-options="required:true, missingMessage:'请输入授课主题'"/>
+                    <input id="add_theme"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="theme" data-options="required:true, missingMessage:'请输入授课主题'"/>
                 </td>
                 <td width="200">授课地点:</td>
                 <td width="350">
-                    <input id="add_roomlocation"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="roomlocation" data-options="required:true, missingMessage:'请输入授课地点,示例：H1208'"/>
+                    <input id="add_roomlocation"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="roomlocation" data-options="required:true, missingMessage:'请输入授课地点,示例：H1208'"/>
                 </td>
             </tr>
             <tr>
@@ -342,31 +342,31 @@
 			<tr>
 				<td width="200" height="70">1.教学内容和目标明确，符合教学大纲要求</td>
 				<td width="350" height="70">
-                    <input class="easyui-slider" id="t1" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8]">
+                    <input class="easyui-slider" id="t1" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8]">
 				</td>
                 <td width="200" height="70">2.教学内容娴熟，问题阐述收放自如</td>
                 <td width="350" height="70">
-                    <input class="easyui-slider" id="t2" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',3,'|',6,'|',9,'|',12,'|',15]">
+                    <input class="easyui-slider" id="t2" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',3,'|',6,'|',9,'|',12,'|',15]">
                 </td>
 			</tr>
             <tr>
                 <td width="200" height="70">3.讲述条理清晰，概念准确，重点突出</td>
                 <td width="350" height="70">
-                    <input class="easyui-slider" id="t3" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
+                    <input class="easyui-slider" id="t3" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
                 </td>
                 <td width="200" height="70">4.使用普通话，语言表达清楚、简洁、准确、语速适中</td>
                 <td width="350" height="70">
-                    <input class="easyui-slider" id="t4" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8]">
+                    <input class="easyui-slider" id="t4" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8]">
                 </td>
             </tr>
             <tr>
                 <td width="200" height="70">5.PPT制作精良，板书规范，能有效利用各种教学媒体</td>
                 <td width="350" height="70">
-                    <input class="easyui-slider" id="t5" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8]">
+                    <input class="easyui-slider" id="t5" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8]">
                 </td>
                 <td width="200" height="70">6.有先进的教学理念、实用的教学方法，教学设计精心、课堂效果好</td>
                 <td width="350" height="70">
-                    <input class="easyui-slider" id="t6" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
+                    <input class="easyui-slider" id="t6" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
                 </td>
             </tr>
             <tr>
@@ -378,21 +378,21 @@
             <tr>
                 <td width="200" height="70">7.能启发引导学生积极、主动思考</td>
                 <td width="350" height="70">
-                    <input class="easyui-slider" id="t7" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
+                    <input class="easyui-slider" id="t7" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
                 </td>
                 <td width="200" height="70">8.与学生交流互动好，课堂氛围活跃</td>
                 <td width="350" height="70">
-                    <input class="easyui-slider" id="t8" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8]">
+                    <input class="easyui-slider" id="t8" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8]">
                 </td>
             </tr>
             <tr>
                 <td width="200" height="70">9.学生注意力集中，课堂纪律好</td>
                 <td width="350" height="70">
-                    <input class="easyui-slider" id="t9" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8]">
+                    <input class="easyui-slider" id="t9" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8]">
                 </td>
                 <td width="200" height="70">10.通过本节课的教学内容，学生能掌握本节课的教学内容，感觉受启发，收获大</td>
                 <td width="350" height="70">
-                    <input class="easyui-slider" id="t10" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',3,'|',6,'|',9,'|',12,'|',15]">
+                    <input class="easyui-slider" id="t10" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',3,'|',6,'|',9,'|',12,'|',15]">
                 </td>
             </tr>
             <tr>
@@ -509,11 +509,11 @@
 			<tr>
 				<td width="200">总体评价:</td>
 				<td width="350">
-					<input id="add_generalcomment"  class="easyui-textbox" style="width: 300px; height: 100px;" type="text" data-options="multiline: true" name="generalcomment" />
+					<input id="add_generalcomment"  class="easyui-textbox" style="width: 328px; height: 100px;" type="text" data-options="multiline: true" name="generalcomment" />
 				</td>
                 <td width="200">存在问题/需要改进的地方及具体改进建议/对你的启发(不少于100字,一栏至少描述其中一项):</td>
                 <td width="350">
-                    <input id="add_other"  class="easyui-textbox" style="width: 300px; height: 100px;" type="text" data-options="multiline: true" name="other" />
+                    <input id="add_other"  class="easyui-textbox" style="width: 328px; height: 100px;" type="text" data-options="multiline: true" name="other" />
                 </td>
 			</tr>
 		</table>

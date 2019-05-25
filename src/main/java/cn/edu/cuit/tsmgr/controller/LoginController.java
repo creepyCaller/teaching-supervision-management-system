@@ -67,7 +67,6 @@ public class LoginController extends HttpServlet implements BaseControllerInter 
         String vcode = request.getParameter("vcode");
         //获取登录类型
         int type = Integer.parseInt(request.getParameter("type"));
-
         //返回信息
         String msg = "";
 
@@ -106,12 +105,24 @@ public class LoginController extends HttpServlet implements BaseControllerInter 
             }
             else
             {
-                if(Users.USER_ADMIN == type){
+                if(Users.USER_ADMIN == type && user.getType() == type){
                     msg = "admin";
-                } else if(Users.USER_TSMEMBER == type){
+                } else if(Users.USER_TSMEMBER == type && user.getType() == type){
+                    if(user.getSgmname() == null) {
+                        user.setName(Users.PLEASE_SET_NAME);
+                    } else {
+                        user.setName(user.getSgmname());
+                    }
                     msg = "tsmember";
-                } else if(Users.USER_TEACHER == type){
+                } else if(Users.USER_TEACHER == type && user.getType() == type){
+                    if(user.getTeachername() == null) {
+                        user.setName(Users.PLEASE_SET_NAME);
+                    } else {
+                        user.setName(user.getTeachername());
+                    }
                     msg = "teacher";
+                } else {
+                    msg = "loginError";
                 }
                 //将该用户名保存到session中
                 request.getSession().setAttribute("user", user);

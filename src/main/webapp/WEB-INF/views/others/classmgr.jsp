@@ -32,9 +32,9 @@
                 sortOrder:'DESC',
                 remoteSort: false,
                 columns: [[
-                    {field:'chk',checkbox: true,width:50},
+                    {field:'blank',width:40},
                     {field:'classname',title:'班别',width:150, sortable: true},
-                    {field:'major',title:'主修课程',width:150},
+                    {field:'major',title:'主修专业',width:150},
                     {field:'school',title:'所属院系',width:150}
                 ]],
                 toolbar: "#toolbar"

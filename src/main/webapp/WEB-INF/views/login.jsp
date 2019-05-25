@@ -21,9 +21,10 @@
 <link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
 
 <script type="text/javascript" src="easyui/jquery.min.js"></script>
+<script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
 <script type="text/javascript" src="h-ui/js/H-ui.js"></script>
 <script type="text/javascript" src="h-ui/lib/icheck/jquery.icheck.min.js"></script>
-<script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
+
 
 <script type="text/javascript">
 	$(function(){
@@ -98,7 +99,7 @@
 
 		//设置复选框
 		$(".skin-minimal input").iCheck({
-			radioClass: 'iradio-green',
+			radioClass: 'iradio-blue',
 			increaseArea: '75%'
 		});
 	})
@@ -109,7 +110,7 @@
 <body>
 
 <div class="header" style="background: #222; padding: 0;">
-    <h3 style="color: whitesmoke; width: 400px; height: 60px; line-height: 60px; margin: 0 0 0 30px; padding: 0;">登录|教学督导听课评价管理系统</h3>
+    <h3 style="color: whitesmoke; width: 400px; height: 55px; line-height: 55px; margin: 0 0 0 30px; padding: 0;">登录|教学督导听课评价管理系统</h3>
 </div>
 <div class="loginWraper">
   <div id="loginform" class="loginBox" style="background: whitesmoke">
@@ -117,13 +118,13 @@
       <div class="row cl">
         <label class="form-label col-3"><i class="Hui-iconfont">&#xe60a;</i></label>
         <div class="formControls col-8">
-          <input id="" name="username" type="text" placeholder="用户名" class="input-text size-L">
+          <input name="username" type="text" placeholder="用户名" class="input-text size-L">
         </div>
       </div>
       <div class="row cl">
         <label class="form-label col-3"><i class="Hui-iconfont">&#xe63f;</i></label>
         <div class="formControls col-8">
-          <input id="" name="password" type="password" placeholder="密码" class="input-text size-L">
+          <input name="password" type="password" placeholder="密码" class="input-text size-L">
         </div>
       </div>
       <div class="row cl">
@@ -134,15 +135,15 @@
       <div class="mt-20 skin-minimal" style="text-align: center;">
           <div class="radio-box">
               <input type="radio" id="radio-1" name="type" value="1" checked />
-              <label for="radio-1">督导组</label>
+              <label for="radio-1">督导</label>
           </div>
           <div class="radio-box">
               <input type="radio" id="radio-2" name="type" value="2" />
-              <label for="radio-2">老师</label>
+              <label for="radio-2">教师</label>
           </div>
           <div class="radio-box">
               <input type="radio" id="radio-3" name="type" value="3" />
-              <label for="radio-3">管理员</label>
+              <label for="radio-3">管理</label>
           </div>
       </div>
       <div class="row">

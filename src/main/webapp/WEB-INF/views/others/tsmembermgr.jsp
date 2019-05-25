@@ -32,7 +32,7 @@
                 sortOrder:'DESC',
                 remoteSort: false,
                 columns: [[
-                    {field:'chk',checkbox: true,width:50},
+                    {field:'blank',width:40},
                     {field:'id',title:'工号',width:100, sortable: true},
                     {field:'sgmname',title:'姓名',width:100}
                 ]],

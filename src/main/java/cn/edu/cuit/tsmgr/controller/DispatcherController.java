@@ -22,6 +22,8 @@ public class DispatcherController extends HttpServlet implements BaseControllerI
             request.getRequestDispatcher("/WEB-INF/views/admin/addadmin.jsp").forward(request, response);
         } else if("toFinishedTskView".equalsIgnoreCase(method)) {
             request.getRequestDispatcher("/WEB-INF/views/others/finishedtsk.jsp").forward(request, response);
+        } else if("toTeachersCommentsView".equalsIgnoreCase(method)) {
+            request.getRequestDispatcher("/WEB-INF/views/teacher/moyacomments.jsp").forward(request, response);
         }
     }
 

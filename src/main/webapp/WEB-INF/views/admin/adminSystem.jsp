@@ -13,7 +13,7 @@
 	<style type="text/css">
 		.table th{font-weight:bold}
 		.table th,.table td{padding:8px;line-height:20px}
-		.table td{text-align:left}
+		.table td{text-align:center}
 		.table-border{border-top:1px solid #ddd}
 		.table-border th,.table-border td{border-bottom:1px solid #ddd}
 		.table-bordered{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;border-left:0}

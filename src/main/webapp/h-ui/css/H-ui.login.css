@@ -12,14 +12,14 @@ body{font-size:14px}
 .header{top:0; height:60px; background:#426374; padding: 0;}
 
 .loginWraper{ position:absolute;width:100%; left:0; top:0; bottom:0; right:0; z-index:1; background:#fff url(../images/admin-login-bg.jpg) no-repeat center; background-size: cover;}
-.loginBox{ position:absolute; width:617px; height:330px; background:url(../images/admin-loginform-bg.png) no-repeat; left:50%; top:50%; margin-left:-309px; margin-top:-184px; padding-top:38px}
-@media (max-width:617px) {
+.loginBox{ position:absolute; width:600px; height:380px; background:url(../images/admin-loginform-bg.png) no-repeat; left:50%; top:50%; margin-left:-309px; margin-top:-184px; padding-top:38px}
+@media (max-width:600px) {
 	.loginbox{ width:100%; position:static; margin-top:0; margin-left:0;}
 }
 .loginBox .row{margin-top:20px;}
 .loginBox .row .form-label .Hui-iconfont{ font-size:24px}
 .loginBox .input-text{ width:360px}
-@media (max-width:617px) {
+@media (max-width:600px) {
 	.loginBox .input-text{ width:80%}
 }
 	.yzm a{ color:#426374; font-size:12px}

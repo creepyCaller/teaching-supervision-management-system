@@ -6,17 +6,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>课程列表</title>
-
 	<link rel="stylesheet" type="text/css" href="easyui/themes/material-teal/easyui.css">
 	<link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
 	<link rel="stylesheet" type="text/css" href="easyui/css/demo.css">
 	<script type="text/javascript" src="easyui/jquery.min.js"></script>
 	<script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
-	<script type="text/javascript" src="easyui/themes/locale/easyui-lang-zh_CN.js"></script>
 	<script type="text/javascript" src="easyui/js/validateExtends.js"></script>
+	<script type="text/javascript" src="easyui/themes/locale/easyui-lang-zh_CN.js"></script>
 	<script type="text/javascript">
 		$(function() {
-
 			//datagrid初始化
 			$('#dataList').datagrid({
 				title:'课程列表',
@@ -33,7 +31,7 @@
 				sortOrder:'DESC',
 				remoteSort: false,
 				columns: [[
-					{field:'chk',checkbox: true,width:50},
+					{field:'blank',width:40},
 					{field:'id',title:'ID',width:25, sortable: true},
 					{field:'coursename',title:'课程名称',width:150},
 					{field:'school',title:'开办院系',width:150},
@@ -145,7 +143,6 @@
 											$("#add_lessontype").textbox('setValue', "公共课");
 											$("#add_teachername").textbox('setValue', "");
 											$("#add_roomlocation").textbox('setValue', "");
-											$("#add_lessontype").textbox('setValue', "");
 											$("#add_time").textbox('setValue', "");
 											$("#add_lessonno").textbox('setValue', "");
 											//重新刷新页面数据
@@ -171,7 +168,6 @@
 							$("#add_lessontype").textbox('setValue', "公共课");
 							$("#add_teachername").textbox('setValue', "");
 							$("#add_roomlocation").textbox('setValue', "");
-							$("#add_lessontype").textbox('setValue', "");
 							$("#add_time").textbox('setValue', "");
 							$("#add_lessonno").textbox('setValue', "");
 						}
@@ -306,14 +302,14 @@
 			</tr>
 			<c:if test="${user.type eq 2}" var="result">
 			<tr>
-				<td>教师名称:</td>
-				<td><input value="${user.name}" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="teachername" data-options=editable:false;" /></td>
+				<td>教师姓名:</td>
+				<td><input class="easyui-textbox" style="width: 200px; height: 30px;" value="${user.name}" type="text" name="teachername" data-options="editable:false" /></td>
 			</tr>
 			</c:if>
-			<c:if test="${!result }">
+			<c:if test="${!result}">
 				<tr>
-					<td>教师名称:</td>
-					<td><input id="add_teachername" value="${user.name}" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="teachername" data-options=editable:false;" /></td>
+					<td>教师姓名:</td>
+					<td><input id="add_teachername" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="teachername" data-options="required:true, missingMessage:'请填写教师姓名'" /></td>
 				</tr>
 			</c:if>
 			<tr>

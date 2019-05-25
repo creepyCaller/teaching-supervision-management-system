@@ -17,7 +17,7 @@
     <style type="text/css">
         .table th{font-weight:bold}
         .table th,.table td{padding:8px;line-height:20px}
-        .table td{text-align:left}
+        .table td{text-align:center}
         .table-border{border-top:1px solid #ddd}
         .table-border th,.table-border td{border-bottom:1px solid #ddd}
         .table-bordered{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;border-left:0}
@@ -35,15 +35,15 @@
 				fit: true,//自动大小
 				method: "post",
 				url:"TaskController?method=RTaskList&t="+new Date().getTime(),
-				idField:'id',
+				idField:'etime',
 				singleSelect: false,//是否单选
 				pagination: true,//分页控件
 				rownumbers: true,//行号
-				sortName:'id',
+				sortName:'etime',
 				sortOrder:'desc',
 				remoteSort: false,
 				columns: [[
-					{field:'chk',checkbox: true,width:50},
+                    {field:'blank',width:40},
 					{field:'id',title:'ID',width:50, sortable: true},
 					{field:'taskexecuter',title:'任务执行人',width:75, sortable: true},
 					{field:'teachername',title:'教师名称',width:75, sortable: true},
@@ -406,7 +406,7 @@
                 <td><input id="add_taskexecuter"  class="easyui-textbox" style="width: 200px; height: 30px;" type="text" name="taskexecuter" data-options="required:true, missingMessage:'请输入任务执行人'" /></td>
             </tr>
             </c:if>
-            <c:if test="${!result }">
+            <c:if test="${!result}">
                 <tr>
                     <td>任务执行人:</td>
                     <td><input value="${user.name}" class="easyui-textbox" style="width: 200px; height: 30px;" type="text" name="taskexecuter" data-options="editable:false" /></td>
@@ -472,10 +472,18 @@
 <div id="editDialog" style="padding: 10px">
     <form id="editForm" method="post">
         <table cellpadding="8" >
+            <c:if test="${user.type eq 2}" var="result1">
             <tr>
                 <td>任务执行人:</td>
-                <td><input id="edit_taskexecuter"  class="easyui-textbox" style="width: 200px; height: 30px;" type="text" name="taskexecuter" data-options="required:true, missingMessage:'请输入任务执行人'" /></td>
+                <td><input class="easyui-textbox" value="${user.name}" style="width: 200px; height: 30px;" type="text" name="taskexecuter" data-options="editable:false" /></td>
             </tr>
+            </c:if>
+            <c:if test="${!result1}">
+            <tr>
+                <td>任务执行人:</td>
+                <td><input id="edit_taskexecuter" class="easyui-textbox" style="width: 200px; height: 30px;" type="text" name="taskexecuter" data-options="required:true, missingMessage:'请输入任务执行人'" /></td>
+            </tr>
+            </c:if>
             <tr>
                 <td>教师名称:</td>
                 <td><input id="edit_teachername"  class="easyui-textbox" style="width: 200px; height: 30px;" type="text" name="teachername" data-options="required:true, missingMessage:'请输入教师名称'" /></td>

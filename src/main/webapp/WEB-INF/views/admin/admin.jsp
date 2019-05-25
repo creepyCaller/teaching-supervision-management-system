@@ -10,6 +10,10 @@
     <link rel="shortcut icon" href="favicon.ico"/>
 	<link rel="bookmark" href="favicon.ico"/>
      -->
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="easyui/css/default.css" />
     <link rel="stylesheet" type="text/css" href="easyui/themes/material-teal/easyui.css" />
     <link rel="stylesheet" type="text/css" href="easyui/themes/icon.css" />
@@ -71,9 +75,29 @@
     </div>
 </noscript>
 
-<div region="north" split="false" border="false" style="overflow: hidden; height: 60px; background: #222; padding: 0; line-height: 20px; color: whitesmoke;">
-    <h3 style="color: whitesmoke; width: 400px; height: 60px; line-height: 60px; margin: 0 0 0 30px; font-size: 24px; font-weight:normal">管理|教学督导听课评价管理系统</h3>
+<div region="north" split="false" border="false" style="overflow: hidden; height: 55px; background: #222; padding: 0; line-height: 20px; color: whitesmoke;">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h3 style="color: whitesmoke; height: 55px; line-height: 55px; margin: 0 0 0 0px; padding: 0;">管理员|教学督导听课评价管理系统</h3>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="SystemController?method=toAdminPersonalView">${user.username}(管理员)</a></li>
+                    <li><a href="SystemController?method=toAdminSystemView">系统</a></li>
+                    <li><a href="SystemController?method=LoginOut">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </div>
+
 <div region="west" split="false" title="" style="overflow: hidden; width:170px;" id="west">
     <div id="nav" class="easyui-accordion" fit=false border=true data-options="multiple:true">
         <!--  导航内容 -->
@@ -81,8 +105,27 @@
 
 </div>
 <div id="mainPanle" region="center" style="background: #eee; overflow-y:hidden">
-    <div id="tabs" class="easyui-tabs"  fit="true" border="false" >
-        <jsp:include page="/WEB-INF/views/admin/welcome.jsp" />
+    <div id="tabs" class="easyui-tabs"  fit="true" border="true" >
+        <div title="欢迎" style="padding:20px; overflow:hidden; color:black; " >
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>${systemInfo.collegename}&nbsp;${systemInfo.schoolname}</h1>
+                    <p>欢迎使用教学督导听课评价管理系统</p>
+                    <p>管理员&nbsp;${user.username}&nbsp;,您好!</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>通知(督导)</h2>
+                        <h4>${systemInfo.noticetsmember}</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>通知(教师)</h2>
+                        <h4>${systemInfo.noticeteacher}</h4>
+                    </div>
+                </div>
+            </div>
     </div>
 </div>
 </body>

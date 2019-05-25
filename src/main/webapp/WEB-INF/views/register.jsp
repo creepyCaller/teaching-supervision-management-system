@@ -93,7 +93,7 @@
 <body>
 
 <div class="header" style="background: #222; padding: 0;">
-    <h3 style="color: whitesmoke; width: 400px; height: 60px; line-height: 60px; margin: 0 0 0 30px; padding: 0;">注册|教学督导听课评价管理系统</h3>
+    <h3 style="color: whitesmoke; width: 400px; height: 55px; line-height: 55px; margin: 0 0 0 30px; padding: 0;">注册|教学督导听课评价管理系统</h3>
 </div>
 <div class="loginWraper">
   <div id="loginform" class="loginBox" style="background: whitesmoke">
@@ -118,11 +118,11 @@
       <div class="mt-20 skin-minimal" style="text-align: center;">
           <div class="radio-box">
               <input type="radio" id="radio-1" name="type" value="1" checked />
-              <label for="radio-1">督导组</label>
+              <label for="radio-1">督导</label>
           </div>
           <div class="radio-box">
               <input type="radio" id="radio-2" name="type" value="2" />
-              <label for="radio-2">老师</label>
+              <label for="radio-2">教师</label>
           </div>
       </div>
       <div class="row">

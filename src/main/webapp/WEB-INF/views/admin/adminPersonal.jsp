@@ -13,7 +13,7 @@
 	<style type="text/css">
 		.table th{font-weight:bold}
 		.table th,.table td{padding:8px;line-height:20px}
-		.table td{text-align:left}
+		.table td{text-align:center}
 		.table-border{border-top:1px solid #ddd}
 		.table-border th,.table-border td{border-bottom:1px solid #ddd}
 		.table-bordered{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;border-left:0}
@@ -102,23 +102,23 @@
 	
 	<div id="editDialog" style="padding: 20px;">
 		<div style="width: auto">
-            <table id="systemTable" class="table table-border table-bordered table-striped" style="width: auto" cellpadding="8"  align="center">
+            <table id="systemTable" class="table table-border table-bordered table-striped" style="width: auto" cellpadding="8" align="center">
                 <tr>
                     <td width="200">用户名:</td>
                     <td width="350">
-                        <input id="user_name" value="${user.username}" class="easyui-textbox" style="width: 300px; height: 30px;" type="text" disabled="disabled" name="username" />
+                        <input id="user_name" value="${user.username}" class="easyui-textbox" style="width: 300px; height: 30px;" type="text" data-options="editable:false" name="username" />
                     </td>
                 </tr>
                 <tr>
                     <td width="200">注册时间:</td>
                     <td width="350">
-                        <input id="registe_date" value="${user.etime}" class="easyui-textbox" style="width: 300px; height: 30px;" type="text" disabled="disabled" name="registedate" />
+                        <input id="registe_date" value="${user.etime}" class="easyui-textbox" style="width: 300px; height: 30px;" type="text" data-options="editable:false" name="registedate" />
                     </td>
                 </tr>
                 <tr>
                     <td width="200">用户类型:</td>
                     <td width="350">
-                        <input id="user_type" value="${user.type}" class="easyui-textbox" style="width: 300px; height: 30px;" type="text" disabled="disabled" name="usertype" />
+                        <input id="user_type" value="${user.type}" class="easyui-textbox" style="width: 300px; height: 30px;" type="text" data-options="editable:false" name="usertype" />
                     </td>
                 </tr>
 

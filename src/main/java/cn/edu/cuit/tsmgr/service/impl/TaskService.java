@@ -79,11 +79,11 @@ public class TaskService implements BaseServiceInter {
             param.add(page.getSize());
             sb.append("limit ?,?");
         }
-        String sql = sb.toString().replaceFirst("AND", "WHERE");
+        String sql = sb.toString();
         //获取数据
         List<Tasks> list = dao.getFTaskList(sql, param, user);
         //获取总记录数
-        long total = getFTCount();
+        long total = getFTCount(user);
         //定义Map
         Map<String, Object> jsonMap = new HashMap<String, Object>();
         //total键 存放总记录数，必须的
@@ -95,12 +95,14 @@ public class TaskService implements BaseServiceInter {
         return JSONObject.fromObject(jsonMap).toString();
     }
 
-    private long getFTCount() {
-        //sql语句
-        StringBuffer sb = new StringBuffer("SELECT COUNT(*) FROM tasks WHERE finished=1");
-        //参数
+    private long getFTCount(Users user) {
         List<Object> param = new LinkedList<>();
-        String sql = sb.toString().replaceFirst("AND", "WHERE");
+        String sql;
+        if(user.getType() == Users.USER_ADMIN) {
+            sql = "SELECT COUNT(*) FROM tasks WHERE finished=1";
+        } else {
+            sql = ("SELECT COUNT(*) FROM tasks WHERE taskexecuter='" + user.getName() + "'" + " AND finished=1");
+        }
         return (long) dao.count(sql, param).intValue();
     }
 
@@ -117,11 +119,11 @@ public class TaskService implements BaseServiceInter {
             param.add(page.getSize());
             sb.append("limit ?,?");
         }
-        String sql = sb.toString().replaceFirst("AND", "WHERE");
+        String sql = sb.toString();
         //获取数据
         List<Tasks> list = dao.getRTaskList(sql, param, user);
         //获取总记录数
-        long total = getRTCount();
+        long total = getRTCount(user);
         //定义Map
         Map<String, Object> jsonMap = new HashMap<String, Object>();
         //total键 存放总记录数，必须的
@@ -133,12 +135,50 @@ public class TaskService implements BaseServiceInter {
         return JSONObject.fromObject(jsonMap).toString();
     }
 
-    private long getRTCount() {
-        //sql语句
-        StringBuffer sb = new StringBuffer("SELECT COUNT(*) FROM tasks WHERE finished=0");
-        //参数
+    private long getRTCount(Users user) {
         List<Object> param = new LinkedList<>();
-        String sql = sb.toString().replaceFirst("AND", "WHERE");
+        String sql;
+        if(user.getType() == Users.USER_ADMIN) {
+            sql = "SELECT COUNT(*) FROM tasks WHERE finished=0";
+        } else {
+            sql = ("SELECT COUNT(*) FROM tasks WHERE taskexecuter='" + user.getName() + "'" + " AND finished=0");
+        }
         return (long) dao.count(sql, param).intValue();
     }
+
+    public String getMoyaTaskList(Page page, Users user) {
+        //sql语句
+        StringBuffer sb = new StringBuffer("SELECT * FROM tasks ");
+        //参数
+        List<Object> param = new LinkedList<>();
+        //添加排序
+        sb.append("ORDER BY id DESC ");
+        //分页
+        if(page != null){
+            param.add(page.getStart());
+            param.add(page.getSize());
+            sb.append("limit ?,?");
+        }
+        String sql = sb.toString();
+        //获取数据
+        List<Tasks> list = dao.getMoyaTaskList(sql, param, user);
+        //获取总记录数
+        long total = getMoyaTCount(user);
+        //定义Map
+        Map<String, Object> jsonMap = new HashMap<String, Object>();
+        //total键 存放总记录数，必须的
+        jsonMap.put("total", total);
+        //rows键 存放每页记录 list
+        jsonMap.put("rows", list);
+        //格式化Map,以json格式返回数据
+        //返回
+        return JSONObject.fromObject(jsonMap).toString();
+    }
+
+    private long getMoyaTCount(Users user) {
+        List<Object> param = new LinkedList<>();
+        String sql = ("SELECT COUNT(*) FROM tasks WHERE teachername='" + user.getTeachername() + "'" + " AND finished=1");
+        return (long) dao.count(sql, param).intValue();
+    }
+
 }

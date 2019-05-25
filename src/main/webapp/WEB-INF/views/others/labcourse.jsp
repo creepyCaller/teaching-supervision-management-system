@@ -18,7 +18,7 @@
 	<style type="text/css">
 		.table th{font-weight:bold}
 		.table th,.table td{padding:8px;line-height:20px}
-		.table td{text-align:left}
+		.table td{text-align:center}
 		.table-border{border-top:1px solid #ddd}
 		.table-border th,.table-border td{border-bottom:1px solid #ddd}
 		.table-bordered{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;border-left:0}
@@ -254,34 +254,34 @@
 			<tr>
 				<td width="200">任务ID:</td>
 				<td width="350">
-					<input id="add_id"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="id" data-options="required:true, missingMessage:'请输入任务ID'"/>
+					<input id="add_id"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="id" data-options="required:true, missingMessage:'请输入任务ID'"/>
 				</td>
 				<td width="200">任务执行人:</td>
 				<c:if test="${user.type eq 3}" var="result">
 					<td width="350">
-						<input id="add_taskexecuter"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="taskexecuter" data-options="required:true, missingMessage:'请输入任务执行人'"/>
+						<input id="add_taskexecuter"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="taskexecuter" data-options="required:true, missingMessage:'请输入任务执行人'"/>
 					</td>
 				</c:if>
 				<c:if test="${!result }">
 					<td width="350">
-						<input value="${user.name}"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="taskexecuter" data-options="editable:false"/>
+						<input value="${user.name}"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="taskexecuter" data-options="editable:false"/>
 					</td>
 				</c:if>
 			</tr>
 			<tr>
 				<td width="200">授课教师姓名:</td>
 				<td width="350">
-					<input id="add_teachername"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="teachername" data-options="required:true, missingMessage:'请输入教师名称'"/>
+					<input id="add_teachername"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="teachername" data-options="required:true, missingMessage:'请输入教师名称'"/>
 				</td>
 				<td width="200">授课班级:</td>
 				<td width="350">
-					<input id="add_classname"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="classname" data-options="required:true, missingMessage:'请输入授课班级'"/>
+					<input id="add_classname"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="classname" data-options="required:true, missingMessage:'请输入授课班级'"/>
 				</td>
 			</tr>
 			<tr>
 				<td width="200">课程名称:</td>
 				<td width="350">
-					<input id="add_coursename"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="coursename" data-options="required:true, missingMessage:'请输入课程名称'"/>
+					<input id="add_coursename"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="coursename" data-options="required:true, missingMessage:'请输入课程名称'"/>
 				</td>
 				<td width="200">授课时间:</td>
 				<td width="350">
@@ -293,11 +293,11 @@
 			<tr>
 				<td width="200">实验课题:</td>
 				<td width="350">
-					<input id="add_theme"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="theme" data-options="required:true, missingMessage:'请输入实验课题'"/>
+					<input id="add_theme"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="theme" data-options="required:true, missingMessage:'请输入实验课题'"/>
 				</td>
 				<td width="200">授课地点:</td>
 				<td width="350">
-					<input id="add_roomlocation"  class="easyui-textbox" style="width: 300px; height: 30px;" type="text" name="roomlocation" data-options="required:true, missingMessage:'请输入授课地点,示例：H1208'"/>
+					<input id="add_roomlocation"  class="easyui-textbox" style="width: 328px; height: 30px;" type="text" name="roomlocation" data-options="required:true, missingMessage:'请输入授课地点,示例：H1208'"/>
 				</td>
 			</tr>
 			<tr>
@@ -309,48 +309,48 @@
 			<tr>
 				<td width="200" height="70">1.备课充分，有完整的实验教案或讲义，熟悉实验内容，实验目的明确，内容充实，符合教学大纲要求</td>
 				<td width="350" height="70">
-					<input class="easyui-slider" id="t1" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',3,'|',6,'|',9,'|',12,'|',15]">
+					<input class="easyui-slider" id="t1" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',3,'|',6,'|',9,'|',12,'|',15]">
 				</td>
 				<td width="200" height="70">2.分组及人数符合实验要求，指导教师讲授具有启发性，熟悉仪器设备，操作示范正确，熟练</td>
 				<td width="350" height="70">
-					<input class="easyui-slider" id="t2" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',3,'|',6,'|',9,'|',12,'|',15]">
+					<input class="easyui-slider" id="t2" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',3,'|',6,'|',9,'|',12,'|',15]">
 				</td>
 			</tr>
 			<tr>
 				<td width="200" height="70">3.普通话熟练，口头语言表达清楚准确，富有感染力和吸引力，采用板书或其他教学手段（如多媒体、直观教学）演示和介绍实验内容效果良好</td>
 				<td width="350" height="70">
-					<input class="easyui-slider" id="t3" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
+					<input class="easyui-slider" id="t3" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
 				</td>
 				<td width="200" height="70">4.实验各环节时间把握恰当，注重引导学生思考和学生实际动手能力的培养，注重探索与改进实验教学方法，重视课堂内外师生双向交流</td>
 				<td width="350" height="70">
-					<input class="easyui-slider" id="t4" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
+					<input class="easyui-slider" id="t4" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
 				</td>
 			</tr>
 			<tr>
 				<td width="200" height="70">5.遵守教学与课堂纪律，上课通信工具关闭，不迟到早退，准时上下课</td>
 				<td width="350" height="70">
-					<input class="easyui-slider" id="t5" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
+					<input class="easyui-slider" id="t5" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
 				</td>
 				<td width="200" height="70">6.为人师表，注重教态仪表和言行身教，教书的同时注重育人，引导学生积极向上，不对学生宣讲负面和具有消极影响的言论</td>
 				<td width="350" height="70">
-					<input class="easyui-slider" id="t6" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
+					<input class="easyui-slider" id="t6" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
 				</td>
 			</tr>
 			<tr>
 				<td width="200" height="70">7.对学生要求严格，善于管理学生上课出勤和课堂纪律，对原始实验数据审查严格，对实验报告批阅认真规范</td>
 				<td width="350" height="70">
-					<input class="easyui-slider" id="t7" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
+					<input class="easyui-slider" id="t7" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',2,'|',4,'|',6,'|',8,'|',10]">
 				</td>
 				<td width="200" height="70">8.学生实验兴趣浓，思维活跃，注意力集中，实验秩序纪律好，通过本节实验课的教学，学生能掌握本节课的教学内容，感觉受启发，收获大</td>
 				<td width="350" height="70">
-					<input class="easyui-slider" id="t8" value="0" style="width:300px;" data-options="showTip:true,rule:[0,'|',5,'|',10,'|',15,'|',20]">
+					<input class="easyui-slider" id="t8" value="0" style="width:328px;" data-options="showTip:true,rule:[0,'|',5,'|',10,'|',15,'|',20]">
 				</td>
 			</tr>
 
 			<tr>
 				<td width="200">综合评语:</td>
 				<td width="350">
-					<input id="add_generalcomment"  class="easyui-textbox" style="width: 300px; height: 100px;" type="text" data-options="multiline: true" name="generalcomment" />
+					<input id="add_generalcomment"  class="easyui-textbox" style="width: 328px; height: 100px;" type="text" data-options="multiline: true" name="generalcomment" />
 				</td>
 				<td width="200">实验室管理:按时开门，环境整洁，实验仪器设备维护完好，台套数满足教学要求；实验室管理规范，室内醒目位置有文字式的管理制度与操作规范</td>
 				<td width="350">

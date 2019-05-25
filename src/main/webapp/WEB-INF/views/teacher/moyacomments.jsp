@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>已完成任务</title>
+    <title>我得到的评价</title>
 
     <link rel="stylesheet" type="text/css" href="easyui/themes/material-teal/easyui.css">
     <link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
@@ -29,14 +29,14 @@
         $(function() {
             //datagrid初始化
             $('#dataList').datagrid({
-                title:'已完成任务',
+                title:'我得到的评价',
                 border: true,
                 collapsible: false,//是否可折叠的
                 fit: true,//自动大小
                 method: "post",
-                url:"TaskController?method=FTaskList&t="+new Date().getTime(),
+                url:"TaskController?method=MoyaTaskList&t="+new Date().getTime(),
                 idField:'etime',
-                singleSelect: true,//是否单选
+                singleSelect: false,//是否单选
                 pagination: true,//分页控件
                 rownumbers: true,//行号
                 sortName:'etime',
@@ -44,8 +44,7 @@
                 remoteSort: false,
                 columns: [[
                     {field:'blank',width:40},
-                    {field:'taskexecuter',title:'任务执行人',width:100, sortable: true},
-                    {field:'teachername',title:'教师名称',width:100, sortable: true},
+                    {field:'taskexecuter',title:'评价人',width:100, sortable: true},
                     {field:'coursename',title:'课程名称',width:150, sortable: true},
                     {field:'roomlocation',title:'上课地点',width:100, sortable: true},
                     {field:'etime',title:'上课日期',width:100, sortable: true},
@@ -61,16 +60,7 @@
                         }
                     },
                     {field:'comment',title:'备注',width:200},
-                    {field:'finished',title:'完成情况',width:100, sortable: true,
-                        formatter: function(value,row,index) {
-                            if (value == 0){
-                                return "未完成"
-                            } else {
-                                return "已完成";
-                            }
-                        }
-                    },
-                    {field:'ltid',title:'总分',width:100, sortable: true}
+                    {field:'ltid',title:'得分',width:100, sortable: true}
                 ]],
                 toolbar: "#toolbar"
             });
@@ -82,21 +72,6 @@
                 beforePageText: '第',//页数文本框前显示的汉字
                 afterPageText: '页    共 {pages} 页',
                 displayMsg: '当前显示 {from} - {to} 条记录   共 {total} 条记录'
-            });
-
-            //设置工具类按钮
-            $("#add").click(function(){
-                $("#addDialog").dialog("open");
-            });
-
-            //修改
-            $("#edit").click(function(){
-                var selectRows = $("#dataList").datagrid("getSelections");
-                if(selectRows.length != 1){
-                    $.messager.alert("", "请选择一条数据进行操作!", "warning");
-                } else{
-                    $("#editDialog").dialog("open");
-                }
             });
 
             //查看
@@ -119,39 +94,6 @@
                             } else {
                                 $.messager.alert("", "请选择一项已完成的任务!", "warning");
                             }
-                        }
-                    });
-                }
-            });
-
-            //删除
-            $("#delete").click(function(){
-                var selectRows = $("#dataList").datagrid("getSelections");
-                var selectLength = selectRows.length;
-                if(selectLength == 0){
-                    $.messager.alert("", "请选择数据进行删除!", "warning");
-                } else{
-                    var ids = [];
-                    $(selectRows).each(function(i, row){
-                        ids[i] = row.id;
-                    });
-                    $.messager.confirm("", "将删除任务,确认继续?", function(r){
-                        if(r){
-                            $.ajax({
-                                type: "post",
-                                url: "TaskController?method=DeleteTask",
-                                data: {ids: ids},
-                                success: function(msg){
-                                    if(msg == "success"){
-                                        $.messager.alert("","删除成功!","info");
-                                        //刷新表格
-                                        $("#dataList").datagrid("reload");
-                                        $("#dataList").datagrid("uncheckAll");
-                                    } else{
-                                        $.messager.alert("","删除失败!","warning");
-                                    }
-                                }
-                            });
                         }
                     });
                 }
@@ -227,10 +169,6 @@
 </table>
 <!-- 工具栏 -->
 <div id="toolbar">
-    <c:if test="${user.type eq 3}">
-        <div style="float: left;"><a id="delete" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-some-delete',plain:true">删除</a></div>
-        <div style="float: left;" class="datagrid-btn-separator"></div>
-    </c:if>
     <div style="float: left;"><a id="reload" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-reload',plain:true">刷新</a></div>
     <div style="float: left;" class="datagrid-btn-separator"></div>
     <div><a id="view" href="javascript:" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true">查看评价</a></div>

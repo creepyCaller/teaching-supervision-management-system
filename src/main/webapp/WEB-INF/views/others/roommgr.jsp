@@ -2,7 +2,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="UTF-8">
 	<title>教室列表</title>
@@ -29,12 +28,12 @@
 				pagination:true,//分页控件
 				rownumbers:true,//行号
 				sortName:'roomlocation',
-				sortOrder:'DESC',
+				sortOrder:'asc',
 				remoteSort: false,
 				columns: [[
-					{field:'chk',checkbox: true,width:50},
+					{field:'blank',width:40},
 					{field:'roomlocation',title:'位置',width:100, sortable: true},
-					{field:'roomusage',title:'用途',width:100},
+					{field:'roomusage',title:'用途',width:150},
 					{field:'roomtype',title:'类型',width:100}
 				]],
 				toolbar: "#toolbar"
@@ -47,7 +46,7 @@
 				pageList: [10,30,50,100],//可以设置每页记录条数的列表
 				beforePageText: '第',//页数文本框前显示的汉字
 				afterPageText: '页    共 {pages} 页',
-				displayMsg: '当前显示 {from} - {to} 条记录   共 {total} 条记录',
+				displayMsg: '当前显示 {from} - {to} 条记录   共 {total} 条记录'
 			});
 
 			//设置工具类按钮

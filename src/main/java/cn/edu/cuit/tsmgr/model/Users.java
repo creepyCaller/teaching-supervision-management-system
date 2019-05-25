@@ -22,8 +22,9 @@ public class Users implements Serializable {
          */
         public static final int USER_ADMIN = 3;
 
-        private static final String PLEASE_SET_NAME = "请设置姓名 !";
-    /**登录名*/
+        public static final String PLEASE_SET_NAME = "*请设置姓名*";
+
+        /**登录名*/
         private String username;
         
         private String sgmname;
@@ -37,7 +38,7 @@ public class Users implements Serializable {
         private Date registedate;
 
         private String etime;
-        /**1，管理员；2，督导员；3，老师*/
+        /**3，管理员；1，督导员；2，老师*/
         private Integer type;
         
         public String getUsername() {
@@ -54,11 +55,6 @@ public class Users implements Serializable {
         
         public void setSgmname(String sgmname) {
             this.sgmname = sgmname;
-            if(sgmname == null) {
-                this.name = PLEASE_SET_NAME;
-            } else {
-                this.name = sgmname;
-            }
         }
         
         public String getTeachername() {
@@ -67,11 +63,6 @@ public class Users implements Serializable {
         
         public void setTeachername(String teachername) {
             this.teachername = teachername;
-            if(teachername == null) {
-                this.name = PLEASE_SET_NAME;
-            } else {
-                this.name = teachername;
-            }
         }
         
         public String getPassword() {

@@ -40,6 +40,8 @@ public class TaskController extends HttpServlet implements BaseControllerInter {
             fTaskList(request, response);
         } else if("AddTask".equalsIgnoreCase(method)){ //添加教师
             addTask(request, response);
+        } else if("MoyaTaskList".equalsIgnoreCase(method)){ //添加教师
+            moyaTaskList(request, response);
         } else if("DeleteTask".equalsIgnoreCase(method)){ //删除教师
             deleteTask(request, response);
         } else if("EditTask".equalsIgnoreCase(method)){ //修改教师信息
@@ -47,6 +49,18 @@ public class TaskController extends HttpServlet implements BaseControllerInter {
         } else if("toCommentPage".equalsIgnoreCase(method)){ //去评论页
             toCommentPage(request, response);
         }
+    }
+
+    private void moyaTaskList(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        //获取分页参数
+        int page = Integer.parseInt(request.getParameter("page"));
+        int rows = Integer.parseInt(request.getParameter("rows"));
+        //获取用户类型
+        Users user = (Users) request.getSession().getAttribute("user");
+        //获取数据
+        String result = service.getMoyaTaskList(new Page(page, rows), user);
+        //返回数据
+        response.getWriter().write(result);
     }
 
     private void fTaskList(HttpServletRequest request, HttpServletResponse response) throws IOException {

@@ -32,7 +32,7 @@
                 sortOrder:'DESC',
                 remoteSort: false,
                 columns: [[
-                    {field:'chk',checkbox: true,width:50},
+                    {field:'blank',width:40},
                     {field:'username',title:'用户名',width:100, sortable: true},
                     {field:'type',title:'用户类型',width:75,
                         formatter: function(value,row,index){

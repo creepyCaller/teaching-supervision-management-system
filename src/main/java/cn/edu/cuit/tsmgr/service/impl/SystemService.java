@@ -1,20 +1,15 @@
 package cn.edu.cuit.tsmgr.service.impl;
 
-import cn.edu.cuit.tsmgr.dao.SystemimformationMapper;
 import cn.edu.cuit.tsmgr.dao.jdbc.BaseDao;
 import cn.edu.cuit.tsmgr.model.Systemimformation;
 import cn.edu.cuit.tsmgr.model.Users;
 import cn.edu.cuit.tsmgr.service.SystemServiceInter;
-import cn.edu.cuit.tsmgr.dao.UsersMapper;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Service;
 
 @Service
 public class SystemService implements SystemServiceInter {
-    private ApplicationContext applicationContext;
-    private UsersMapper usersmapper;
+    //private ApplicationContext applicationContext;
+    //private UsersMapper usersmapper;
 
     /**
      * 获取听课任务列表
@@ -89,7 +84,7 @@ public class SystemService implements SystemServiceInter {
         usersmapper = applicationContext.getBean(UsersMapper.class);
         return usersmapper.selectByPrimaryKey(user.getUsername());
          */
-        return (Users) new BaseDao().getObject(Users.class, "SELECT * FROM users WHERE username='"+user.getUsername()+"'", null);
+        return (Users) new BaseDao().getObject(Users.class, "SELECT * FROM users WHERE username=?", new Object[]{user.getUsername()});
     }
 
     /**
@@ -146,8 +141,7 @@ public class SystemService implements SystemServiceInter {
         dao.update("UPDATE systemimformation SET "+name+"=?", new Object[]{value});
         //重新加载数据
         //获取系统初始化对象
-        Systemimformation systemimformation = (Systemimformation) dao.getObject(Systemimformation.class, "SELECT * FROM systemimformation WHERE id=1", null);
-        return systemimformation;
+        return (Systemimformation) dao.getObject(Systemimformation.class, "SELECT * FROM systemimformation WHERE id=1", null);
     }
 
     /**
