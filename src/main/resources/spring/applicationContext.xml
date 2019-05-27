@@ -16,7 +16,6 @@
     <mvc:annotation-driven />
     <!-- 静态资源访问 -->
     <!--如果webapp下你新建了文件夹，想访问里面的静态资源，那么就要在这配置一下-->
-    <mvc:resources location="/fonts/" mapping="/fonts/**"/>
     <mvc:resources location="/easyui/" mapping="/easyui/**"/>
     <mvc:resources location="/h-ui/" mapping="/h-ui/**"/>
 

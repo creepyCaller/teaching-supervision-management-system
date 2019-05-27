@@ -11,6 +11,8 @@
     <link rel="shortcut icon" href="favicon.ico"/>
 	<link rel="bookmark" href="favicon.ico"/>
      -->
+    <script type="text/javascript" src="easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
@@ -18,8 +20,6 @@
     <link rel="stylesheet" type="text/css" href="easyui/css/default.css" />
     <link rel="stylesheet" type="text/css" href="easyui/themes/material-teal/easyui.css" />
     <link rel="stylesheet" type="text/css" href="easyui/themes/icon.css" />
-    <script type="text/javascript" src="easyui/jquery.min.js"></script>
-    <script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
 	<script type="text/javascript" src='easyui/js/outlook2.js'> </script>
     <script type="text/javascript" src="h-ui/js/H-ui.js"></script>
     <script type="text/javascript" src="h-ui/lib/icheck/jquery.icheck.min.js"></script>

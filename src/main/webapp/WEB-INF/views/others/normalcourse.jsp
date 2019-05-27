@@ -6,7 +6,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>理论课听课评价</title>
-
 	<link rel="stylesheet" type="text/css" href="easyui/themes/material-teal/easyui.css">
 	<link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
 	<link rel="stylesheet" type="text/css" href="easyui/css/demo.css">
