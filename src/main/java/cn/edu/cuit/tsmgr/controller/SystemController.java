@@ -13,6 +13,7 @@ import cn.edu.cuit.tsmgr.service.impl.SystemService;
 
 import cn.edu.cuit.tsmgr.model.Systemimformation;
 import cn.edu.cuit.tsmgr.model.Users;
+import cn.edu.cuit.tsmgr.util.EncryptionUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import javax.servlet.annotation.WebServlet;
@@ -105,7 +106,7 @@ public class SystemController extends HttpServlet implements BaseControllerInter
     private void editPassword(HttpServletRequest request, HttpServletResponse response) throws IOException {
         Users user = new Users();
         user.setUsername(request.getParameter("username"));
-        user.setPassword(request.getParameter("password"));
+        user.setPassword(EncryptionUtil.MD5(request.getParameter("password")));
         service.editPassword(user);
         response.getWriter().write("success");
     }
