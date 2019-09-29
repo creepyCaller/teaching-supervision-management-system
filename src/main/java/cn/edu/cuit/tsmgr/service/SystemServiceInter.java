@@ -12,36 +12,6 @@ public interface SystemServiceInter extends BaseServiceInter {
     public String getTasksList();
 
     /**
-     * 获取课程评价信息表
-     * @return
-     */
-    public String getNormalClassEvaluateTablesList();
-
-    /**
-     * 获取实验课评价信息表
-     * @return
-     */
-    public String getLabClassEvaluateTablesList();
-
-    /**
-     * 获取课表
-     * @return
-     */
-    public String getCoursesList();
-
-    /**
-     * 获取班级表
-     * @return
-     */
-    public String getClassesList();
-
-    /**
-     * 获取教室列表
-     * @return
-     */
-    public String getRoomsList();
-
-    /**
      * 登录验证
      * @param user
      * @return

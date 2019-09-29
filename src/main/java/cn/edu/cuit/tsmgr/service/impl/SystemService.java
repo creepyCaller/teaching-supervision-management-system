@@ -22,56 +22,6 @@ public class SystemService implements SystemServiceInter {
     }
 
     /**
-     * 获取课程评价信息表
-     *
-     * @return
-     */
-    @Override
-    public String getNormalClassEvaluateTablesList() {
-        return null;
-    }
-
-    /**
-     * 获取实验课评价信息表
-     *
-     * @return
-     */
-    @Override
-    public String getLabClassEvaluateTablesList() {
-        return null;
-    }
-
-    /**
-     * 获取课表
-     *
-     * @return
-     */
-    @Override
-    public String getCoursesList() {
-        return null;
-    }
-
-    /**
-     * 获取班级表
-     *
-     * @return
-     */
-    @Override
-    public String getClassesList() {
-        return null;
-    }
-
-    /**
-     * 获取教室列表
-     *
-     * @return
-     */
-    @Override
-    public String getRoomsList() {
-        return null;
-    }
-
-    /**
      * 登录验证
      * @param user
      * @return
@@ -112,30 +62,6 @@ public class SystemService implements SystemServiceInter {
      */
     @Override
     public Systemimformation editSystemImformation(String name, String value) {
-        /*
-        // 加载spring配置文件
-        applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext.xml");
-        usersmapper = applicationContext.getBean(UsersMapper.class);
-        SystemimformationMapper systemimformationMapper = applicationContext.getBean(SystemimformationMapper.class);
-        Systemimformation systemimformation = new Systemimformation();
-        systemimformation.setId(1);
-        if ("collegeName".equals(name)) {
-            systemimformation.setCollegename(value);
-        } else if ("schoolName".equals(name)) {
-            systemimformation.setSchoolname(value);
-        } else if ("forbidTeacher".equals(name) || name.equals("forbidTeacherRegiste")) {
-            systemimformation.setForbidteacher(new Byte(value));
-        } else if ("forbidTSMember".equals(name)|| name.equals("forbidTSMemberRegiste")) {
-            systemimformation.setForbidtsmember(new Byte(value));
-        } else if ("noticeTeacher".equals(name)) {
-            systemimformation.setNoticeteacher(value);
-        } else if ("noticeTSMember".equals(name)) {
-            systemimformation.setNoticetsmember(value);
-        }
-        systemimformationMapper.updateByPrimaryKeySelective(systemimformation);
-        systemimformation = systemimformationMapper.selectByPrimaryKey(1);
-        return systemimformation;
-        */
         //修改数据库
         BaseDao dao = new BaseDao();
         if(name.equals("forbidTeacherRegiste")) {
@@ -157,12 +83,6 @@ public class SystemService implements SystemServiceInter {
      */
     @Override
     public int registe(Users user) {
-        /*
-        // 加载spring配置文件
-        applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext.xml");
-        usersmapper = applicationContext.getBean(UsersMapper.class);
-        return usersmapper.insert(user);
-         */
         new BaseDao().insert("INSERT INTO users(username,password,registedate,type) value(?,?,?,?)", new Object[]{user.getUsername(),user.getPassword(),user.getRegistedate(),user.getType()});
         return 1;
     }

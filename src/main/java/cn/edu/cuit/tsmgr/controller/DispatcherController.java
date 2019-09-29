@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Controller
-@WebServlet("/DispatcherController")
 public class DispatcherController extends HttpServlet implements BaseControllerInter {
     private static final long serialVersionUID = 1L;
 
