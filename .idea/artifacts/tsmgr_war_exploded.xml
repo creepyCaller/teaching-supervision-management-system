@@ -14,7 +14,7 @@
           <element id="module-output" name="tsmgr" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.17.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.5.RELEASE" />

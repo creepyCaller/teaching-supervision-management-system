@@ -38,7 +38,7 @@
     <orderEntry type="library" name="servlet-api" level="project" />
     <orderEntry type="library" name="c3p0-0.9.1.2" level="project" />
     <orderEntry type="library" name="commons-dbutils-1.6" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-core:4.2.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.2.5.RELEASE" level="project" />
